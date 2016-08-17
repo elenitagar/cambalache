@@ -1,25 +1,20 @@
 
 
-function nif(dni) {
-  var numero
-  var letr
-  var letra
-  var expresion_regular_dni
- 
-  expresion_regular_dni = /^\d{8}[a-zA-Z]$/;
- 
+function validaDNI(dni) {
+  var expresion_regular_dni = /^\d{8}[a-zA-Z]$/;
+  // Valida por expresion regular.
   if(expresion_regular_dni.test (dni) == true){
-     numero = dni.substr(0,dni.length-1);
-     letr = dni.substr(dni.length-1,1);
-     numero = numero % 23;
-     letra='TRWAGMYFPDXBNJZSQVHLCKET';
-     letra=letra.substring(numero,numero+1);
-     if (letra==letr.toUpperCase())
+    // Si se cumple, comprueba que la letra coincida.
+    var numero = dni.substr(0,dni.length-1) % 23;
+    var letra='TRWAGMYFPDXBNJZSQVHLCKET';
+    letra=letra.substring(numero,numero+1);
+    if (letra==dni.substr(dni.length-1,1).toUpperCase())
        return true;
   }
  return false;
 }
 
+// Formatea el DNI añadiendo ceros y poniendo la letra en mayusculas.
 function formateaDNI(dni){
     dni = dni.replace(/\-/g,'').toUpperCase();
     for( var i=dni.length;i<9;++i)
@@ -28,20 +23,15 @@ function formateaDNI(dni){
 }
 
 
-function ValidateDNI() {
-    var element = jQuery(this);
-    var str = formateaDNI(element.val());
-    element.val(str);
-    console.log(str[0]);
-var res = nif(str);
-    jQuery(this).css("border", res?"":"2px solid red");
-    console.log(str+" = "+res);
-}
-
 function OnDocumentReady(){
-     jQuery("#dni").change(ValidateDNI);
+    jQuery("#dni").change(function () {
+        var element = jQuery(this);
+        var str = formateaDNI(element.val());
+        element.val(str);
+        var res = validaDNI(str); // retorna true o false
+        jQuery(this).css("border", res ? "":"2px solid red");
+        console.log(str+" = "+res);
+    });
 }
 
 jQuery( document ).ready(OnDocumentReady);
-
-3/8 
