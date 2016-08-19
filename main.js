@@ -29,8 +29,9 @@ function OnDocumentReady(){
         var str = formateaDNI(element.val());
         element.val(str);
         var res = validaDNI(str); // retorna true o false
-        jQuery(this).css("border", res ? "":"2px solid red");
-        console.log(str+" = "+res);
+        if(res) jQuery("#dni-err").hide(); else jQuery("#dni-err").show();
+        // jQuery(this).css("border", res ? "":"2px solid red");
+        // console.log(str+" = "+res);
     });
 }
 
