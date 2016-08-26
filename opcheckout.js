@@ -37,9 +37,6 @@ Checkout.prototype = {
         this.payment = '';
         this.loadWaiting = false;
         this.steps = ['login', 'billing', 'shipping', 'shipping_method', 'payment', 'review'];
-        // alturas para cada paso.
-        this.heights = [50, 500, 20, 20, 600, 3000];
-        //We use billing as beginning step since progress bar tracks from billing
         this.currentStep = 'billing';
 
         this.accordion.sections.each(function(section) {
@@ -135,11 +132,10 @@ Checkout.prototype = {
         if(!reloadProgressBlock) {
             this.resetPreviousSteps();
         }
+        
         // Cambia la dimesion del contenedor. ---->
-        var stepIndex = this.steps.indexOf(this.currentStep);
-        if(stepIndex!=-1){
-        	jQuery("#checkoutSteps").height( this.heights[stepIndex] );
-        }
+        var tot = sectionElement.children[0].getHeight() + sectionElement.children[1].getHeight(); 
+        jQuery("#checkoutSteps").height(tot);
         // <----
     },
 
