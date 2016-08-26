@@ -134,6 +134,7 @@ Checkout.prototype = {
         }
         
         // Cambia la dimesion del contenedor. ---->
+        alert(">>> "+section+ ">>>> "+sectionElement.children[0].id + " "+sectionElement.children[1].id);
         var tot = sectionElement.children[0].getHeight() + sectionElement.children[1].getHeight() + 200; 
         jQuery("#checkoutSteps").height(tot);
         // <----
