@@ -137,7 +137,7 @@ Checkout.prototype = {
         }
         // Cambia la dimesion del contenedor. ---->
         var stepIndex = this.steps.indexOf(this.currentStep);
-        alert("stepIndex "+stepIndex);
+        alert(">>>> " + this.currentStep +" stepIndex "+stepIndex);
         if(stepIndex!=-1){
         	alert("pondra esta altura "+this.heights[stepIndex]);
             $("#checkoutSteps").height( this.heights[stepIndex] );
