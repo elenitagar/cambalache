@@ -38,7 +38,7 @@ Checkout.prototype = {
         this.loadWaiting = false;
         this.steps = ['login', 'billing', 'shipping', 'shipping_method', 'payment', 'review'];
         // alturas para cada paso.
-        this.heights = [1600, 1600, 1600, 1600, 1600, 1600];
+        this.heights = [50, 500, 20, 20, 600, 3000];
         //We use billing as beginning step since progress bar tracks from billing
         this.currentStep = 'billing';
 
@@ -137,8 +137,11 @@ Checkout.prototype = {
         }
         // Cambia la dimesion del contenedor. ---->
         var stepIndex = this.steps.indexOf(this.currentStep);
-        if(stepIndex!=-1)
-            $("checkoutSteps").height( this.heights[stepIndex] );
+        alert("stepIndex "+stepIndex);
+        if(stepIndex!=-1){
+        	alert("pondra esta altura "+this.heights[stepIndex]);
+            $("#checkoutSteps").height( this.heights[stepIndex] );
+        }
         // <----
     },
 
@@ -990,3 +993,4 @@ Review.prototype = {
 
     isSuccess: false
 }
+
