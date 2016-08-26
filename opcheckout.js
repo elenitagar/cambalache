@@ -140,7 +140,9 @@ Checkout.prototype = {
         alert(">>>> " + this.currentStep +" stepIndex "+stepIndex);
         if(stepIndex!=-1){
         	alert("pondra esta altura "+this.heights[stepIndex]);
-            $("#checkoutSteps").height( this.heights[stepIndex] );
+            //$("#checkoutSteps").height( this.heights[stepIndex] );
+            $("#checkoutSteps").css( "height, this.heights[stepIndex]+"px" );
+            
         }
         // <----
     },
