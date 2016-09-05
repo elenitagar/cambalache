@@ -202,7 +202,7 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 		$product_id = $this->getRequest()->getParam('product');
 		if(!$product_id):
 			$path  = $this->getRequest()->getParam('id');
-			if(is_numeric($path))
+			if(ctype_digit ($path))
 				$product_id = (int) $path;
 			echo ">>>4 ",$path, " >>>> ",$product_id;
 	
