@@ -56,7 +56,9 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 		$this->addActionLayoutHandles();
 		if(!$delete){
 			$product = $this->_getProductFromUrl();
+			echo ">>>1 ",$product;
 			$product = Mage::registry('product');
+			echo ">>>2 ",$product;
 			$options = $product->getProductOptionsCollection();
 			$conf = Mage::getModel('catalog/product_type_configurable')->setProduct($product);
 			$col = $conf->getUsedProductCollection()->addAttributeToSelect('*')->addFilterByRequiredOptions();
@@ -200,9 +202,12 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 	public function _getProductFromUrl(){
 		Mage::dispatchEvent('catalog_controller_product_init_before', array('controller_action'=>$this));
 		$product_id = $this->getRequest()->getParam('product');
+		echo ">>>3 ",$product_id;
+
 		if(!$product_id):
 			$path  = $this->getRequest()->getParam('id');
 			$product_id = (int) $path;
+			echo ">>>4 "$path, " >>>> ",$product_id;
 	
 			if(!$product_id){
 				
@@ -215,6 +220,7 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 				if ($row = $rs->fetch() ) {
 					$product_id = $row['product_id'];
 				}	
+				echo ">>>5 "$path, " >>>> ",$product_id;
 			}
 		endif;	
 
