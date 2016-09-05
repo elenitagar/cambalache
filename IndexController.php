@@ -204,7 +204,6 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 			$path  = $this->getRequest()->getParam('id');
 			if(ctype_digit ($path))
 				$product_id = (int) $path;
-			echo ">>>4 ",$path, " >>>> ",$product_id;
 	
 			if(!$product_id){
 				
@@ -216,8 +215,7 @@ class Cmsmart_AjaxCart_IndexController extends Mage_Core_Controller_Front_Action
 				
 				if ($row = $rs->fetch() ) {
 					$product_id = $row['product_id'];
-				}	
-				echo ">>>5 ",$path, " >>>> ",$product_id;
+				}
 			}
 		endif;	
 
