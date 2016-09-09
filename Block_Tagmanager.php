@@ -326,10 +326,10 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
 */                  
                     
                     $myItem = $helper->createProductArray($productId, (int)$item->getQty());
-                    $myItem['variant'] = $item->getSku();
-// invertimos los valores de SKU e IdProducto.
-//                    $myItem['id'] = $item->getSku();
-//                    $myItem['variant'] = $productId;
+//                    $myItem['variant'] = $item->getSku();
+// Invertimos los valores de SKU e IdProducto.
+                    $myItem['id'] = $item->getSku();
+                    $myItem['variant'] = $productId;
                     array_push($cartProducts,$myItem); 
                     
                 }
