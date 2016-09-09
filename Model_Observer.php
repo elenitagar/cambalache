@@ -121,8 +121,7 @@ class Panalysis_TagManager_Model_Observer
             if (array_key_exists($item->getId(), $updated_cart) || $item->getParentItemId())
             {
                 $product = Mage::getModel('catalog/product')->load($item->getProductId());
-                if(
-//                    $product->getTypeId() === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE ||
+                if( $product->getTypeId() === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE ||
                     $product->getTypeId() === Mage_Catalog_Model_Product_Type::TYPE_BUNDLE)
                     continue;
                     
