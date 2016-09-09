@@ -118,13 +118,17 @@ class Panalysis_TagManager_Model_Observer
                 if($product->getTypeId() === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE ||
                     $product->getTypeId() === Mage_Catalog_Model_Product_Type::TYPE_BUNDLE)
                     continue;
-
+                    
+// Eliminamos la parte que hace referencia al padre.                    
+/*
                 if($item->getParentItemId())
                 {
                     $parent = Mage::getModel('sales/quote_item')->load($item->getParentItemId());
                     $new_qty = $updated_cart[$item->getParentItemId()];
                     $old_qty = (int)$parent->getQty();
-                }else{
+                }else
+*/                
+                {
                     $new_qty = $updated_cart[$item->getId()];
                     $old_qty = $item->getQty();
                 }
