@@ -215,6 +215,7 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                 $items = array();
                 foreach ($order->getAllVisibleItems() as $item)
                 {
+/*
                     if($parent = $item->getParentItem()){
                         $filterIds[] = $parent->getProductId();
                         $items[$parent->getProductId()] = array(
@@ -222,16 +223,40 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                             'variant' => $item->getSku()
                         );
                         $items[$parent->getProductId()]['variant'] = $parent;
-                    } else {
+                    } else 
+*/
+                    {
+/*                        
                         $filterIds[] = $item->getProductId();
                         $items[$item->getProductId()] = array(
                             'obj' => $item,
                             'variant' => $item->getSku()
                         );
+*/
+                    $item_price = 0;
+                    if($helper->getUseMultipleCurrencies()) 
+                        $item_price = Mage::helper('core')->currency($item->getPrice(), false, false);
+                    else
+                        $item_price = $item->getPrice();
+                    $sku = $item->getSku();
+                    $productId = $item->getProductId();
+                    $product = Mage::getModel('catalog/product')->load($productId); // No se si vale item, pero por si las moscas.
+                    
+                    $product_array = array(
+                        'name' => $item->getName(),
+                        'id' => $sku,
+                        'variant' => $productId,
+                        'price' => number_format($item_price, 2),
+                        'quantity' => (int)$item->getQtyOrdered(),
+                        'category' => $helper->getSkuCategory($sku)
+                    );
+                    
+                    if($brand = $tm->getBrand($product)) $product_array['brand'] = $brand;
+                    $data['transactionProducts'][] = $product_array;       
                         
                     }
                 }
-                
+                /*
                 $productcollection = $collection->addAttributeToSelect('*')
                         ->addAttributeToFilter('entity_id', array('in' => $filterIds));
                 
@@ -261,6 +286,7 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                     
                     $data['transactionProducts'][] = $product_array;                  
                 }
+                */
             }
         } catch (exception $e) {
             Mage::logException($e);
