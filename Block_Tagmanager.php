@@ -326,7 +326,7 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
 */                  
                     
                     $myItem = $helper->createProductArray($productId, (int)$item->getQty());
-                    $myItem['variant'] = $items[$product->getId()]['variant'];
+                    $myItem['variant'] = $item->getSku();
                     array_push($cartProducts,$myItem); 
                     
                 }
