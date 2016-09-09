@@ -241,11 +241,11 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                     $sku = $item->getSku();
                     $productId = $item->getProductId();
 //                    $product = Mage::getModel('catalog/product')->load($productId); // No se si vale item, pero por si las moscas.
-                    $product = Mage::getModel('catalog/product')->loadByAttribute('sku',$sku);
+//                    $product = Mage::getModel('catalog/product')->loadByAttribute('sku',$sku);
                     $product_array = array(
                         'name' => $item->getName(),
                         'id' => $sku,
-                        'variant' => $product->getProductId(),
+                        'variant' => $productId,
                         'price' => number_format($item_price, 2),
                         'quantity' => (int)$item->getQtyOrdered(),
                         'category' => $helper->getSkuCategory($sku)
