@@ -245,9 +245,8 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                     $product_array = array(
                         'name' => $item->getName(),
                         'id' => $sku,
-                        'variant' => $productId,
-//                        'price' => number_format($item_price, 2),
-                        'price' => number_format($this->helper('checkout')->formatPrice($product->getPrice()),2),
+                        'variant' => $product->getProductId(),
+                        'price' => number_format($item_price, 2),
                         'quantity' => (int)$item->getQtyOrdered(),
                         'category' => $helper->getSkuCategory($sku)
                     );
