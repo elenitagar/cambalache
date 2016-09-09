@@ -326,8 +326,8 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                 }
             }
             
-            $products = $collection->addAttributeToSelect('*') 
-                ->addAttributeToFilter('entity_id', array('in' => $filterList));
+//            $products = $collection->addAttributeToSelect('*') 
+//                ->addAttributeToFilter('entity_id', array('in' => $filterList));
             
             foreach($products as $product)
             {
