@@ -317,15 +317,21 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                 else
                 */
                 {
-                    
+/*                    
                     $items[$productId] = array(
                         'qty' => (int)$item->getQty(),
                         'variant' => $item->getSku()
                         );
                     $filterList[] = $productId;
+*/                  
+                    
+                    $myItem = $helper->createProductArray($productId, (int)$item->getQty());
+                    $myItem['variant'] = $items[$product->getId()]['variant'];
+                    array_push($cartProducts,$myItem); 
+                    
                 }
             }
-            
+  /*          
             $products = $collection->addAttributeToSelect('*') 
                 ->addAttributeToFilter('entity_id', array('in' => $filterList));
             
@@ -335,6 +341,7 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
                $myItem['variant'] = $items[$product->getId()]['variant'];
                array_push($cartProducts,$myItem);                  
             }
+*/
             return $cartProducts;
         }
         catch(exception $e)
