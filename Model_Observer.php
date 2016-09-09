@@ -63,7 +63,10 @@ class Panalysis_TagManager_Model_Observer
                 }
                 $tmProduct[] = $__prod;
 
-            } elseif($type === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE){
+            } 
+/*            
+            
+            elseif($type === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE){
                 $_parent = Mage::getModel('catalog/product')->load($params['product']);
 // Lo quito para que no haga nada raro con el SKU.                
 //                $product = Mage::getModel('catalog/product')->loadByAttribute('sku', $product->getSku());
@@ -75,7 +78,9 @@ class Panalysis_TagManager_Model_Observer
                     $__prod['category'] = $last_cat;
                 }
                 $tmProduct[] = $__prod;
-            }else {
+            }
+*/
+            else {
                 $__prod = $helper->createProductArray($product->getId(), $qty);
                 if($last_cat){
                     $__prod['category'] = $last_cat;
