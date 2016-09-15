@@ -70,7 +70,8 @@ class Panalysis_TagManager_Model_Observer
                 $product = Mage::getModel('catalog/product')->loadByAttribute('sku', $product->getSku());
                 $__prod = $helper->createProductArray($product, $qty);
                 // replace the SKU with the item from the parent SKU. Google Analytics doesn't handle SKUs properly.
-                $__prod['id'] = $product->getId();
+                $__prod['id'] = $observer->getQuoteItem()->getId();
+                //$__prod['id'] = $product->getId();
                 $__prod['variant'] = $product->getSku();
                 if($last_cat){
                     $__prod['category'] = $last_cat;
