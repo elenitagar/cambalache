@@ -67,6 +67,7 @@ class Panalysis_TagManager_Model_Observer
                 // replace the SKU with the item from the parent SKU. Google Analytics doesn't handle SKUs properly.
                 $__prod['id'] = $product->getId();
                 $__prod['variant'] = $_parent->getSku();
+                $__prod['test'] = 'Hola';
                 if($last_cat){
                     $__prod['category'] = $last_cat;
                 }
