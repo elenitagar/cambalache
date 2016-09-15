@@ -135,7 +135,8 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
                 'id' => $product->getSku(),
                 'variant' => $product->getSku(),
                 'price' => $final_price,
-                'category' => $tm->getCategory($product)
+                'category' => $tm->getCategory($product),
+               	'test' = > 'Hola'
             );
            
             if($brand = $tm->getBrand($product)) $product_array['brand'] = $brand;
@@ -277,7 +278,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
             }
 			$categoria3[] = $products[$k]['category'];
 			}
-// PRUEBAS Añade las categorías a la sesión
+// PRUEBAS AÃ±ade las categorÃ­as a la sesiÃ³n
         Mage::getSingleton('core/session')->setGTMCartSkuCats($categoria3);
         $data = array(
             'event' => 'checkout',
@@ -306,7 +307,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
             }
 			$categoria4[] = $products[$k]['category'];
         }
-// PRUEBAS Añade las categorías a la sesión
+// PRUEBAS AÃ±ade las categorÃ­as a la sesiÃ³n
         Mage::getSingleton('core/session')->setGTMCartSkuCats($categoria4);
         $data = array(
             'event' => 'checkout',
