@@ -165,6 +165,7 @@ class Panalysis_TagManager_Model_Observer
             $current_updated = $session->getTmProduct();
             if($current_updated) $addProduct = $current_updated;
             $addProduct[$product_id] = $helper->createProductArray($product_id, $qty);
+            $addProduct[$product_id]['test'] = "Hola";
             $session->setTmProduct($addProduct);
             
         } catch (exception $e) {
