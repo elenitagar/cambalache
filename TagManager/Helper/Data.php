@@ -135,8 +135,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
                 'id' => $product->getSku(),
                 'variant' => $product->getSku(),
                 'price' => $final_price,
-                'category' => $tm->getCategory($product),
-               	'test' = > 'Hola'
+                'category' => $tm->getCategory($product)
             );
            
             if($brand = $tm->getBrand($product)) $product_array['brand'] = $brand;
@@ -336,7 +335,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
         }
         
         $data = array(
-            'event' => 'addToCart2',
+            'event' => 'addToCart',
             'ecommerce' => array(
                 'currencyCode' => $this->getCurrencyCode(),
                 'add' => array(
