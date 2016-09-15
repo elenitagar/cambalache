@@ -67,7 +67,7 @@ class Panalysis_TagManager_Model_Observer
             elseif($type === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE){
                 $_parent = Mage::getModel('catalog/product')->load($params['product']);
 // Lo quito para que no haga nada raro con el SKU.                
-//                $product = Mage::getModel('catalog/product')->loadByAttribute('sku', $product->getSku());
+                $product = Mage::getModel('catalog/product')->loadByAttribute('sku', $product->getSku());
                 $__prod = $helper->createProductArray($product, $qty);
                 // replace the SKU with the item from the parent SKU. Google Analytics doesn't handle SKUs properly.
                 $__prod['id'] = $product->getId();
