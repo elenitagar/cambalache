@@ -63,9 +63,7 @@ class Panalysis_TagManager_Model_Observer
                 }
                 $tmProduct[] = $__prod;
 
-            } 
-/*            
-            
+            }
             elseif($type === Mage_Catalog_Model_Product_Type::TYPE_CONFIGURABLE){
                 $_parent = Mage::getModel('catalog/product')->load($params['product']);
 // Lo quito para que no haga nada raro con el SKU.                
@@ -79,7 +77,6 @@ class Panalysis_TagManager_Model_Observer
                 }
                 $tmProduct[] = $__prod;
             }
-*/
             else {
                 $__prod = $helper->createProductArray($product->getId(), $qty);
                 if($last_cat){
