@@ -93,6 +93,7 @@ class Panalysis_TagManager_Model_Observer
             
             $tmProduct[]['comentario-tipo'] = $type;
             $tmProduct[]['comentario-myid'] = $observer->getQuoteItem()->getId();
+            $tmProduct[]['comentario-todo'] = $observer->getQuoteItem();
             
             $session->setTmProduct($tmProduct);
             
