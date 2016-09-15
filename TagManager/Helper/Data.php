@@ -277,7 +277,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
             }
 			$categoria3[] = $products[$k]['category'];
 			}
-// PRUEBAS AÃ±ade las categorÃ­as a la sesiÃ³n
+// PRUEBAS Añade las categorías a la sesión
         Mage::getSingleton('core/session')->setGTMCartSkuCats($categoria3);
         $data = array(
             'event' => 'checkout',
@@ -306,7 +306,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
             }
 			$categoria4[] = $products[$k]['category'];
         }
-// PRUEBAS AÃ±ade las categorÃ­as a la sesiÃ³n
+// PRUEBAS Añade las categorías a la sesión
         Mage::getSingleton('core/session')->setGTMCartSkuCats($categoria4);
         $data = array(
             'event' => 'checkout',
@@ -335,7 +335,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
         }
         
         $data = array(
-            'event' => 'AddToCart',
+            'event' => 'addToCart',
             'ecommerce' => array(
                 'currencyCode' => $this->getCurrencyCode(),
                 'add' => array(
