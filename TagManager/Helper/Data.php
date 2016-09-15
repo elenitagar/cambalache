@@ -336,7 +336,7 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
         }
         
         $data = array(
-            'event' => 'addToCart',
+            'event' => 'addToCart2',
             'ecommerce' => array(
                 'currencyCode' => $this->getCurrencyCode(),
                 'add' => array(
