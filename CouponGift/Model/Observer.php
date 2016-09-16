@@ -297,8 +297,16 @@ class Sashas_CouponGift_Model_Observer {
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
  
-		$gift_product_sku = $rule->getGiftProductSku ();
-		if (strpos($gift_product_sku, ',') !== false) return $this;
+		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
+		foreach ( $gift_products_sku_arr as $gift_product_sku ) {		
+			$this->RemoveGif($$gift_product_sku, $removed_product_id,$quoteObj,$cart);
+		}
+
+		return $this;
+	
+	}
+	
+	function RemoveGif($$gift_product_sku, $removed_product_id,$quoteObj,$cart){
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		
 		if ($removed_product_id == $product_id)
@@ -317,10 +325,7 @@ class Sashas_CouponGift_Model_Observer {
 					break;
 				}
 			}
-		}
-		
-		return $this;
-	
+		}	
 	}
 
 }
