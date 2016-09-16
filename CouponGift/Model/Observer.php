@@ -171,9 +171,14 @@ class Sashas_CouponGift_Model_Observer {
  
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
- 
-		$gift_product_sku = $rule->getGiftProductSku ();
-		if (strpos($gift_product_sku, ',') !== false) return $this;
+		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
+		foreach ( $gift_products_sku_arr as $gift_product_sku ) {
+			$this->RemoveItemFromCart( $gift_product_sku);
+		}
+		return $this;
+	}
+	
+	public function RemoveItemFromCart($gift_product_sku){
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		$cart_obj = Mage::getModel ( 'checkout/cart' );
 		
@@ -186,12 +191,10 @@ class Sashas_CouponGift_Model_Observer {
 		}
 		
 		if (! $gift_product_item instanceof Mage_Sales_Model_Quote_Item)
-			return $this;
+			return;
 			
 		$gift_product_item->isDeleted ( true );
 		//$quote->removeItem ( $gift_product_item->getId () );
-		
-		return $this;
 	}
 	
 	public function UpdateCartItem(Varien_Event_Observer $observer) {
