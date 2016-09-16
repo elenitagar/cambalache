@@ -64,23 +64,8 @@ class Sashas_CouponGift_Model_Observer {
 		
 		return $this;
 	}
-	
-	public function SalesRuleGiftValidator(Varien_Event_Observer $observer) {
-		
-		$rule = $observer->getRule ();
-		if ($rule->getSimpleAction () != self::COUPON_GIFT_CODE)
-			return $this;
-		$force_price = $rule->getGiftProductForcePrice ();
-		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
-	
-		foreach ( $gift_products_sku_arr as $gift_product_sku ) {
-			SalesRuleAddProduct( $gift_product_sku, $force_price);
-		}
 
-		return $this;
-	}
-
-	function SalesRuleAddProduct($gift_product_sku,$force_price){
+	public function SalesRuleAddProduct($gift_product_sku,$force_price){
 		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'Gift Product SKU "%s" Not Found.', Mage::helper ( 'core' )->htmlEscape ( $gift_product_sku ) ) );
 		
 		return $this;
@@ -144,6 +129,20 @@ class Sashas_CouponGift_Model_Observer {
 		$quoteItem->setIsCoupongift(1);
 		$quoteObj->addItem ( $quoteItem );
 		$quoteObj->save ();
+	}
+	
+	public function SalesRuleGiftValidator(Varien_Event_Observer $observer) {
+		
+		$rule = $observer->getRule ();
+		if ($rule->getSimpleAction () != self::COUPON_GIFT_CODE)
+			return $this;
+		$force_price = $rule->getGiftProductForcePrice ();
+		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
+	
+		foreach ( $gift_products_sku_arr as $gift_product_sku ) {
+			$this->SalesRuleAddProduct( $gift_product_sku, $force_price);
+		}
+		return $this;
 	}
 	
 	public function RemoveCoupon(Varien_Event_Observer $observer) {
