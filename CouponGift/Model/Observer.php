@@ -73,7 +73,7 @@ class Sashas_CouponGift_Model_Observer {
 		
 		$force_price = $rule->getGiftProductForcePrice ();
 		$gift_products_sku = explode( ',', $rule->getGiftProductSku () );		
-		SalesRuleAddProduct($gift_product_sku[0], $force_price);
+		SalesRuleAddProduct( $gift_product_sku[0], $force_price);
 		return $this;
 	}
 
@@ -171,7 +171,8 @@ class Sashas_CouponGift_Model_Observer {
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
  
-		$gift_product_sku = $rule->getGiftProductSku (); 
+		$gift_product_sku = $rule->getGiftProductSku ();
+		if (strpos($gift_product_sku, ',') !== false) return $this;
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		$cart_obj = Mage::getModel ( 'checkout/cart' );
 		
@@ -220,6 +221,7 @@ class Sashas_CouponGift_Model_Observer {
 	  
 		
 		$gift_product_sku = $rule->getGiftProductSku ();
+		if (strpos($gift_product_sku, ',') !== false) return $this;
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		
 		foreach ( $observer->getCart ()->getItems () as $quote_item ) {
@@ -291,6 +293,7 @@ class Sashas_CouponGift_Model_Observer {
 			return $this;
  
 		$gift_product_sku = $rule->getGiftProductSku ();
+		if (strpos($gift_product_sku, ',') !== false) return $this;
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		
 		if ($removed_product_id == $product_id)
