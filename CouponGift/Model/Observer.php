@@ -299,14 +299,14 @@ class Sashas_CouponGift_Model_Observer {
  
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
 		foreach ( $gift_products_sku_arr as $gift_product_sku ) {		
-			$this->RemoveGif($$gift_product_sku, $removed_product_id,$quoteObj,$cart);
+			$this->RemoveGif($gift_product_sku, $removed_product_id,$quoteObj,$cart);
 		}
 
 		return $this;
 	
 	}
 	
-	function RemoveGif($$gift_product_sku, $removed_product_id,$quoteObj,$cart){
+	function RemoveGif($gift_product_sku, $removed_product_id,$quoteObj,$cart){
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		
 		if ($removed_product_id == $product_id)
