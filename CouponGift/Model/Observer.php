@@ -70,12 +70,13 @@ class Sashas_CouponGift_Model_Observer {
 		$rule = $observer->getRule ();
 		if ($rule->getSimpleAction () != self::COUPON_GIFT_CODE)
 			return $this;
-		
+	/*	
 		$force_price = $rule->getGiftProductForcePrice ();
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
 		foreach ( $gift_products_sku_arr as $gift_product_sku ) {
 			SalesRuleAddProduct( $gift_product_sku, $force_price);
 		}
+	*/
 		return $this;
 	}
 
