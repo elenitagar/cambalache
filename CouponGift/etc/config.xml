@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author		Sashas
+ * @category    Sashas
+ * @package     Sashas_CouponGift
+ * @copyright   Copyright (c) 2015 Sashas IT Support Inc. (http://www.sashas.org)
+ * @license    http://opensource.org/licenses/GPL-3.0  GNU General Public License, version 3 (GPL-3.0)
+ */
+-->
+<config>
+    <modules>
+        <Sashas_CouponGift>
+            <version>1.1.5</version>
+        </Sashas_CouponGift>
+    </modules>
+	<global>
+         <blocks>
+        	<coupongift>
+        		<class>Sashas_CouponGift_Block</class>        		
+        	</coupongift>
+        </blocks> 
+        <helpers>
+        	<coupongift>
+        		<class>Sashas_CouponGift_Helper</class>        		
+        	</coupongift>
+        </helpers> 
+        <models>
+        	<coupongift>
+        		<class>Sashas_CouponGift_Model</class> 
+        	</coupongift>         	        
+        </models>         
+		<resources>
+            <coupongift_setup>
+                <setup>
+                    <module>Sashas_CouponGift</module>                 
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </coupongift_setup>
+            <coupongift_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </coupongift_write>
+            <coupongift_read>
+                <connection> 
+                    <use>core_read</use>
+                </connection>
+            </coupongift_read>
+		</resources>  
+	 	<events>
+			<salesrule_validator_process>
+				<observers>
+					<coupongift_validator>		
+						 <type>model</type>			  
+						<class>coupongift/observer</class>
+						<method>SalesRuleGiftValidator</method>
+					</coupongift_validator>
+				</observers>
+			</salesrule_validator_process> 
+			<checkout_cart_update_items_after>
+				<observers>
+					<coupongift_cart_update_item>
+						<class>coupongift/observer</class>
+						<method>UpdateCartItem</method>
+					</coupongift_cart_update_item>
+				</observers>				
+			</checkout_cart_update_items_after> 	
+			 <sales_quote_remove_item>
+				<observers>
+					<coupongift_cart_product_remove>
+						<class>coupongift/observer</class>
+						<method>RemovefromCart</method>
+					</coupongift_cart_product_remove>
+				</observers>
+			</sales_quote_remove_item>				
+		</events> 	                       
+	</global>	
+	<frontend>
+	 	<events>
+			<sales_quote_save_before>
+				<observers>
+					<coupongift_cancel_coupon>
+						<class>coupongift/observer</class>
+						<method>RemoveCoupon</method>
+					</coupongift_cancel_coupon>>
+				</observers>
+			</sales_quote_save_before>			
+		</events> 		
+	</frontend>
+	<adminhtml>
+	 	<events>
+			<adminhtml_block_salesrule_actions_prepareform>
+				<observers>
+					<coupongift_prepareform>		
+						 <type>model</type>			  
+						<class>coupongift/observer</class>
+						<method>SalesRulePrepareForm</method>
+					</coupongift_prepareform>
+				</observers>
+			</adminhtml_block_salesrule_actions_prepareform> 
+		</events> 	
+	</adminhtml>  	    
+</config>
+
+
