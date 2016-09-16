@@ -72,16 +72,19 @@ class Sashas_CouponGift_Model_Observer {
 			return $this;
 		$force_price = $rule->getGiftProductForcePrice ();
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
-	/*	
+	
 		foreach ( $gift_products_sku_arr as $gift_product_sku ) {
 			SalesRuleAddProduct( $gift_product_sku, $force_price);
 		}
-	*/
+
 		return $this;
 	}
 
 	function SalesRuleAddProduct($gift_product_sku,$force_price){
-
+		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'Gift Product SKU "%s" Not Found.', Mage::helper ( 'core' )->htmlEscape ( $gift_product_sku ) ) );
+		
+		return $this;
+		
 		$quoteObj = Mage::getModel ( 'checkout/cart' )->getQuote ();
 		$product_id = Mage::getModel ( 'catalog/product' )->getIdBySku ( $gift_product_sku );
 		$cart_obj = Mage::getModel ( 'checkout/cart' );
