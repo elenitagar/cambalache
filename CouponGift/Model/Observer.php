@@ -142,15 +142,19 @@ class Sashas_CouponGift_Model_Observer {
 	}
 	
 	public function RemoveCoupon(Varien_Event_Observer $observer) {
-		
+		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'RemoveCoupon1' ) );
+
 		if (Mage::app ()->getRequest ()->getParam ( 'remove' ) != 1)
 			return $this;
+		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'RemoveCoupon2' ) );
 		$quote = $observer->getQuote ();
 		$quote_id = $quote->getEntityId ();
 		$dbQuote=Mage::getModel ( 'sales/quote' )->load ( $quote_id) ;
 		$applied_coupon_ids =$dbQuote->getAppliedRuleIds ();
 		if (! $applied_coupon_ids)
 			return $this;
+		
+		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'RemoveCoupon3' ) );
 		
 		$applied_coupon_ids_arr=explode(',', $applied_coupon_ids);
 		$rule=Mage::getModel ( 'salesrule/rule' );
@@ -168,7 +172,8 @@ class Sashas_CouponGift_Model_Observer {
 			} 
 			 
 		}  
- 
+ 		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'RemoveCoupon4' ) );
+
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
