@@ -167,7 +167,7 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
         $collection = Mage::getModel('catalog/product')->getCollection();
         $data = array();
         
-        error_log("Order Success ID: ".$order->getIncrementId()." Total ".$order->getGrandTotal());
+        error_log("ICPDEV: Order Success ID: ".$order->getIncrementId()." Total ".$order->getGrandTotal());
         
         try {
             if ($order->getId()) {
