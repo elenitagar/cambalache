@@ -145,6 +145,8 @@ echo $this->helper('checkout')->formatPrice($total, 2); //multiply the quantity 
             }
        });
     });
+    if( jQuery("#s_method_tablerate_bestway").length==1) jQuery("#s_method_tablerate_bestway").parent().append("<p>Texto a cambiar</p>");
+    
 //]]>
 </script>
 <?php endif; ?>
