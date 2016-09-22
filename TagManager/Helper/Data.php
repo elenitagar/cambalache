@@ -328,16 +328,13 @@ class Panalysis_TagManager_Helper_Data extends Mage_Core_Helper_Abstract
     
     public function buildAddToCartData($products)
     {
-    	$res = "";
         foreach($products as $k=>$v){
-        	$res=$res." ID ".$v['id']." SKU ".$v['sku']." ";
         	if($cat = $this->getSkuCategory($v['id'])){
                 $products[$k]['category'] = $cat;
             }
         }
-        Mage::getSingleton('core/session')->addError($res ); 
         $data = array(
-            'event' => 'AddToCart',
+            'event' => 'addToCart',
             'ecommerce' => array(
                 'currencyCode' => $this->getCurrencyCode(),
                 'add' => array(
