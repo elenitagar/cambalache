@@ -44,11 +44,6 @@ class Panalysis_TagManager_Block_Tagmanager extends Mage_Core_Block_Template
         if ($this->getPage() != 'Order Success') {
             // Add to Cart Events
             $tmProduct = $session->getTmProduct();
-            
-            $class_name = get_class($helper);
-            $reflector = new ReflectionClass($class_name);
-            Mage::getSingleton('core/session')->addError("Test error ".$reflector->getFileName() ); 
-
             if($tmProduct) $additionalEventsAdd = $helper->buildAddToCartData($tmProduct); // then there is an add to cart product
             $session->unsTmProduct();
             // Remove from Cart Events
