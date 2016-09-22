@@ -67,7 +67,6 @@ class Panalysis_TagManager_Model_Observer
                 // replace the SKU with the item from the parent SKU. Google Analytics doesn't handle SKUs properly.
                 $__prod['id'] = $product->getId();
                 $__prod['variant'] = $_parent->getSku();
-                $__prod['test'] = 'Hola';
                 if($last_cat){
                     $__prod['category'] = $last_cat;
                 }
@@ -78,6 +77,8 @@ class Panalysis_TagManager_Model_Observer
                 if($last_cat){
                     $__prod['category'] = $last_cat;
                 }
+                $__prod['category'] = "Cambio1";
+                $__prod['test'] = "Hola1";
                 $tmProduct[] = $__prod;
             }
             
@@ -85,7 +86,6 @@ class Panalysis_TagManager_Model_Observer
             if(Mage::app()->getRequest()->isXmlHttpRequest()){
                 $session->setData('panalysis_tagmanager',1);
             }
-            Mage::getSingleton('core/session')->addError("Mensaje2" );
             $session->setTmProduct($tmProduct);
             
             foreach($tmProduct as $prod)
@@ -154,8 +154,8 @@ class Panalysis_TagManager_Model_Observer
             $current_updated = $session->getTmProduct();
             if($current_updated) $addProduct = $current_updated;
             $addProduct[$product_id] = $helper->createProductArray($product_id, $qty);
-            $addProduct['test'] = 'Hola2';
-            Mage::getSingleton('core/session')->addError("Mensaje1" );
+            $addProduct[$product_id]['test'] = 'Hola2';
+            $addProduct[$product_id]['category'] = "Cambio2";
             $session->setTmProduct($addProduct);
             
         } catch (exception $e) {
