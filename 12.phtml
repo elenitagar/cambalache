@@ -40,7 +40,7 @@ $color2 = $this->brightness($color1,-60);
   <form method="post" id="popup-newsletter-form" data-widgetId="<?php echo $this->getWidgetId()?>" onsubmit="return false"> 
       <input type="text" placeholder="<?php echo $this->__('Email address')?>" name="email" title="<?php echo $this->__('Enter Your Email')?>" /> 
 <!--      <p style="font-size:12px; margin-top: 14px;">Consiento el tratamiento de datos de caracter personal <a href="http://pruebas-mydermacenter.icp.es/politica-de-privacidad/" target="_blank">aquí</a> descrito.</p> -->
-      <input type="checkbox" change="jQuery('subscribe').prop('disabled',!jQuery(this).is(':checked'));">Consiento el tratamiento de datos de caracter personal <a href="http://pruebas-mydermacenter.icp.es/politica-de-privacidad/" target="_blank">aquí</a> descrito.</input>         
+      <input type="checkbox" change="jQuery('#subscribe').prop('disabled',!this.checked );">Consiento el tratamiento de datos de caracter personal <a href="http://pruebas-mydermacenter.icp.es/politica-de-privacidad/" target="_blank">aquí</a> descrito.</input>         
       <center><button id="subscribe" class="shadding shadding1 async_false" type="submit" title="<?php echo $this->__('Subscribe')?>" disabled>
       <?php echo $this->getData('button_text') ? $this->getData('button_text') : $this->__('Subscribe') ?></center>
       </button>
