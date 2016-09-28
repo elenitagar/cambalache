@@ -1,0 +1,765 @@
+[Mon Sep 26 06:25:06.477709 2016] [mpm_prefork:notice] [pid 61269] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.17 OpenSSL/1.0.1f configured -- resuming normal operations
+[Mon Sep 26 06:25:06.477730 2016] [core:notice] [pid 61269] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 26 07:21:10.595364 2016] [:error] [pid 53879] [client 66.249.76.100:57494] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 07:40:18.983563 2016] [:error] [pid 54346] [client 66.249.69.82:41994] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 08:17:44.617032 2016] [:error] [pid 54580] [client 163.172.66.26:47503] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 08:44:06.234430 2016] [:error] [pid 55280] [client 66.249.76.102:40187] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 09:05:06.937003 2016] [access_compat:error] [pid 55474] [client 82.223.32.193:45556] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:05:43.360923 2016] [access_compat:error] [pid 55518] [client 82.223.32.193:45560] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:13:06.576993 2016] [access_compat:error] [pid 55434] [client 82.223.32.193:45589] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:20:21.574119 2016] [access_compat:error] [pid 56220] [client 82.223.32.193:45643] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:20:26.560031 2016] [access_compat:error] [pid 56232] [client 82.223.32.193:45646] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:22:08.765504 2016] [access_compat:error] [pid 56291] [client 82.223.32.193:45667] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:22:44.207468 2016] [access_compat:error] [pid 56223] [client 82.223.32.193:45684] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:28:22.842269 2016] [access_compat:error] [pid 56335] [client 82.223.32.193:45698] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:28:30.059815 2016] [access_compat:error] [pid 56335] [client 82.223.32.193:45699] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:30:38.591536 2016] [access_compat:error] [pid 56335] [client 82.223.32.193:45717] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:38:26.461043 2016] [access_compat:error] [pid 56497] [client 82.223.32.193:45795] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:19.259061 2016] [access_compat:error] [pid 56653] [client 82.223.32.193:45834] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:20.688149 2016] [access_compat:error] [pid 56692] [client 82.223.32.193:45837] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:26.697671 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45838] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:32.780511 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45839] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:38.791274 2016] [access_compat:error] [pid 56695] [client 82.223.32.193:45840] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:44.791657 2016] [access_compat:error] [pid 56695] [client 82.223.32.193:45841] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:50.772330 2016] [access_compat:error] [pid 56653] [client 82.223.32.193:45842] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:50:56.788198 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45843] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:02.844252 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45844] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:08.895003 2016] [access_compat:error] [pid 56688] [client 82.223.32.193:45845] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:14.949182 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45846] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:20.989789 2016] [access_compat:error] [pid 56694] [client 82.223.32.193:45847] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:27.049283 2016] [access_compat:error] [pid 56695] [client 82.223.32.193:45848] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:33.028357 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45849] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:39.029422 2016] [access_compat:error] [pid 56653] [client 82.223.32.193:45850] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:45.082545 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45851] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:51.164418 2016] [access_compat:error] [pid 56652] [client 82.223.32.193:45852] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:51:57.179404 2016] [access_compat:error] [pid 56761] [client 82.223.32.193:45853] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:03.193980 2016] [access_compat:error] [pid 56652] [client 82.223.32.193:45854] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:09.240560 2016] [access_compat:error] [pid 56761] [client 82.223.32.193:45855] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:15.254261 2016] [access_compat:error] [pid 56653] [client 82.223.32.193:45856] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:21.350741 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45857] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:27.416598 2016] [access_compat:error] [pid 56828] [client 82.223.32.193:45858] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:33.379625 2016] [access_compat:error] [pid 56828] [client 82.223.32.193:45859] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:39.361801 2016] [access_compat:error] [pid 56690] [client 82.223.32.193:45861] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:45.372835 2016] [access_compat:error] [pid 56688] [client 82.223.32.193:45862] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:51.358712 2016] [access_compat:error] [pid 56690] [client 82.223.32.193:45865] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:52:57.455063 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45866] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:03.447720 2016] [access_compat:error] [pid 56692] [client 82.223.32.193:45867] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:09.449509 2016] [access_compat:error] [pid 56653] [client 82.223.32.193:45868] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:15.459489 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45869] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:21.466207 2016] [access_compat:error] [pid 56696] [client 82.223.32.193:45870] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:27.507196 2016] [access_compat:error] [pid 56690] [client 82.223.32.193:45871] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 09:53:33.572289 2016] [access_compat:error] [pid 56705] [client 82.223.32.193:45872] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:11:28.552334 2016] [access_compat:error] [pid 57085] [client 82.223.32.193:45921] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:11:58.205173 2016] [access_compat:error] [pid 56936] [client 82.223.32.193:45922] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:12:22.977052 2016] [access_compat:error] [pid 57130] [client 82.223.32.193:45923] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:12:26.605424 2016] [access_compat:error] [pid 57137] [client 82.223.32.193:45927] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:12:49.157899 2016] [access_compat:error] [pid 57143] [client 82.223.32.193:45940] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:08.008908 2016] [access_compat:error] [pid 57003] [client 82.223.32.193:45951] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:13.075116 2016] [access_compat:error] [pid 57157] [client 82.223.32.193:45952] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:17.820168 2016] [access_compat:error] [pid 57157] [client 82.223.32.193:45953] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:18.907389 2016] [access_compat:error] [pid 57159] [client 82.223.32.193:45957] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:24.565438 2016] [access_compat:error] [pid 57127] [client 82.223.32.193:45959] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:13:30.237158 2016] [access_compat:error] [pid 57161] [client 82.223.32.193:45960] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:18:39.163409 2016] [access_compat:error] [pid 57154] [client 82.223.32.193:45980] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:18:40.360789 2016] [access_compat:error] [pid 57349] [client 82.223.32.193:45983] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:18:46.368393 2016] [access_compat:error] [pid 57145] [client 82.223.32.193:45984] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:18:52.140808 2016] [access_compat:error] [pid 57088] [client 82.223.32.193:45985] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:40:41.248358 2016] [access_compat:error] [pid 57734] [client 82.223.32.193:46097] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:40:48.184340 2016] [access_compat:error] [pid 57891] [client 82.223.32.193:46101] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:41:05.114282 2016] [access_compat:error] [pid 57885] [client 82.223.32.193:46113] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:44:50.497830 2016] [access_compat:error] [pid 57881] [client 82.223.32.193:46141] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 10:48:57.351748 2016] [access_compat:error] [pid 57953] [client 82.223.32.193:46160] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:03:27.549631 2016] [access_compat:error] [pid 58222] [client 82.223.32.193:46227] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:03:32.748626 2016] [access_compat:error] [pid 58121] [client 82.223.32.193:46230] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:03:41.997790 2016] [access_compat:error] [pid 58117] [client 82.223.32.193:46231] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:03:49.328290 2016] [access_compat:error] [pid 58309] [client 82.223.32.193:46232] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:05:25.521212 2016] [access_compat:error] [pid 58274] [client 82.223.32.193:46243] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:05:37.978234 2016] [access_compat:error] [pid 58415] [client 82.223.32.193:46249] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:07:47.104933 2016] [access_compat:error] [pid 58468] [client 82.223.32.193:46258] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:08:05.236035 2016] [access_compat:error] [pid 58459] [client 82.223.32.193:46265] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:27:38.222229 2016] [access_compat:error] [pid 58862] [client 82.223.32.193:46411] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:27:42.519851 2016] [access_compat:error] [pid 58837] [client 82.223.32.193:46412] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:30:16.159457 2016] [:error] [pid 58927] [client 217.12.16.56:36661] ICPDEV: Order Success ID: MYT1000302 Total 41.1000, referer: https://hpp.realexpayments.com/card.html?guid=3333fbca-d136-4a6c-9019-891de63aee8a
+[Mon Sep 26 11:31:43.601417 2016] [:error] [pid 58982] [client 66.249.76.102:34306] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 11:32:26.377037 2016] [access_compat:error] [pid 58982] [client 82.223.32.193:46439] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 11:32:38.334454 2016] [access_compat:error] [pid 58683] [client 82.223.32.193:46443] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 12:04:25.029377 2016] [access_compat:error] [pid 59683] [client 82.223.32.193:46647] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 12:04:55.052066 2016] [access_compat:error] [pid 59683] [client 82.223.32.193:46664] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 12:11:40.530921 2016] [:error] [pid 59783] [client 66.249.76.104:43660] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 12:20:14.790617 2016] [access_compat:error] [pid 59952] [client 82.223.32.193:46747] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:26:25.839885 2016] [:error] [pid 61740] [client 37.10.133.225:65088] ICPDEV: Order Success ID: MYT1000304 Total 80.6000, referer: https://hpp.realexpayments.com/card.html?guid=14c75d93-c53a-4663-95ae-9da918faec48
+[Mon Sep 26 13:33:11.026100 2016] [access_compat:error] [pid 61966] [client 82.223.32.193:47570] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:33:13.124276 2016] [access_compat:error] [pid 61915] [client 82.223.32.193:47573] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:33:19.133340 2016] [access_compat:error] [pid 61917] [client 82.223.32.193:47577] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:33:25.256732 2016] [access_compat:error] [pid 61967] [client 82.223.32.193:47578] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:38:33.741672 2016] [access_compat:error] [pid 61968] [client 82.223.32.193:47615] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:38:35.722621 2016] [access_compat:error] [pid 61994] [client 82.223.32.193:47618] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:38:41.411351 2016] [access_compat:error] [pid 61996] [client 82.223.32.193:47619] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 13:38:47.151048 2016] [access_compat:error] [pid 61994] [client 82.223.32.193:47620] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:12:25.568852 2016] [access_compat:error] [pid 62670] [client 82.223.32.193:47943] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:12:38.772218 2016] [access_compat:error] [pid 62817] [client 82.223.32.193:47949] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:12:44.832763 2016] [access_compat:error] [pid 62863] [client 82.223.32.193:47950] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:18:06.292620 2016] [access_compat:error] [pid 63052] [client 82.223.32.193:48058] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:18:10.903995 2016] [access_compat:error] [pid 63090] [client 82.223.32.193:48062] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:18:14.943982 2016] [access_compat:error] [pid 63025] [client 82.223.32.193:48067] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:19:08.653073 2016] [access_compat:error] [pid 63053] [client 82.223.32.193:48075] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:20:15.829552 2016] [access_compat:error] [pid 63053] [client 82.223.32.193:48091] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:22:45.292700 2016] [access_compat:error] [pid 63157] [client 82.223.32.193:48125] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:24:41.699965 2016] [access_compat:error] [pid 63012] [client 82.223.32.193:48136] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:24:53.248711 2016] [access_compat:error] [pid 63111] [client 82.223.32.193:48139] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:24:59.454408 2016] [access_compat:error] [pid 63176] [client 82.223.32.193:48140] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:25:13.170928 2016] [access_compat:error] [pid 63221] [client 82.223.32.193:48141] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:26:10.265174 2016] [access_compat:error] [pid 63090] [client 82.223.32.193:48147] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:26:11.084713 2016] [access_compat:error] [pid 63090] [client 82.223.32.193:48148] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:26:35.198163 2016] [access_compat:error] [pid 63240] [client 82.223.32.193:48151] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:27:49.942315 2016] [:error] [pid 63180] [client 66.249.76.100:62020] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 14:28:00.337384 2016] [:error] [pid 63293] [client 66.249.76.102:59348] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 14:28:10.997068 2016] [:error] [pid 63295] [client 66.249.69.82:47360] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 14:58:33.110464 2016] [access_compat:error] [pid 63895] [client 82.223.32.193:48445] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:58:38.052893 2016] [access_compat:error] [pid 63880] [client 82.223.32.193:48447] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 14:58:46.020610 2016] [access_compat:error] [pid 63895] [client 82.223.32.193:48453] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:09:02.238369 2016] [access_compat:error] [pid 384] [client 82.223.32.193:49174] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:09:44.821450 2016] [access_compat:error] [pid 65488] [client 82.223.32.193:49190] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:09:52.764206 2016] [access_compat:error] [pid 376] [client 82.223.32.193:49191] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:09:53.592836 2016] [access_compat:error] [pid 445] [client 82.223.32.193:49192] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:11:33.696375 2016] [access_compat:error] [pid 457] [client 82.223.32.193:49204] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:12:04.317033 2016] [access_compat:error] [pid 465] [client 82.223.32.193:49214] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:12:08.844150 2016] [access_compat:error] [pid 467] [client 82.223.32.193:49220] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:20:10.576869 2016] [access_compat:error] [pid 666] [client 82.223.32.193:49331] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:20:11.178810 2016] [access_compat:error] [pid 595] [client 82.223.32.193:49332] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:20:57.706212 2016] [access_compat:error] [pid 687] [client 82.223.32.193:49350] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:22:53.365999 2016] [access_compat:error] [pid 581] [client 82.223.32.193:49371] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:30:21.897487 2016] [access_compat:error] [pid 871] [client 82.223.32.193:49437] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:38:30.216337 2016] [access_compat:error] [pid 1038] [client 82.223.32.193:49521] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:43:22.888170 2016] [access_compat:error] [pid 1197] [client 82.223.32.193:49585] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:45:18.806487 2016] [access_compat:error] [pid 1149] [client 82.223.32.193:49617] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:45:51.040426 2016] [access_compat:error] [pid 1225] [client 82.223.32.193:49621] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:09.047923 2016] [access_compat:error] [pid 1129] [client 82.223.32.193:49630] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:17.385574 2016] [access_compat:error] [pid 1224] [client 82.223.32.193:49633] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:20.347797 2016] [access_compat:error] [pid 1285] [client 82.223.32.193:49635] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:27.286411 2016] [access_compat:error] [pid 1222] [client 82.223.32.193:49637] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:29.578331 2016] [access_compat:error] [pid 1284] [client 82.223.32.193:49638] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:37.318495 2016] [access_compat:error] [pid 1292] [client 82.223.32.193:49639] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:39.058824 2016] [access_compat:error] [pid 1222] [client 82.223.32.193:49640] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:49.628181 2016] [access_compat:error] [pid 1225] [client 82.223.32.193:49643] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:51.986002 2016] [access_compat:error] [pid 1220] [client 82.223.32.193:49644] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:46:58.741192 2016] [access_compat:error] [pid 1222] [client 82.223.32.193:49645] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:47:01.608126 2016] [access_compat:error] [pid 1296] [client 82.223.32.193:49646] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:47:07.605523 2016] [access_compat:error] [pid 1225] [client 82.223.32.193:49647] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:47:10.412840 2016] [access_compat:error] [pid 1287] [client 82.223.32.193:49648] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:47:28.373934 2016] [access_compat:error] [pid 1212] [client 82.223.32.193:49649] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:48:49.498297 2016] [access_compat:error] [pid 1313] [client 82.223.32.193:49662] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:49:46.919548 2016] [access_compat:error] [pid 1354] [client 82.223.32.193:49663] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:49:52.464536 2016] [access_compat:error] [pid 1222] [client 82.223.32.193:49664] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:50:25.505501 2016] [access_compat:error] [pid 1314] [client 82.223.32.193:49667] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:50:34.984244 2016] [access_compat:error] [pid 1355] [client 82.223.32.193:49668] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:50:41.005278 2016] [access_compat:error] [pid 1353] [client 82.223.32.193:49669] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:52:55.947604 2016] [access_compat:error] [pid 1405] [client 82.223.32.193:49674] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:53:04.037632 2016] [access_compat:error] [pid 1404] [client 82.223.32.193:49677] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:19.171080 2016] [:error] [pid 1292] [client 66.249.76.102:56166] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 16:54:28.689154 2016] [access_compat:error] [pid 1314] [client 82.223.32.193:49683] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:35.233962 2016] [access_compat:error] [pid 1355] [client 82.223.32.193:49684] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:37.615379 2016] [access_compat:error] [pid 1355] [client 82.223.32.193:49685] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:38.967210 2016] [access_compat:error] [pid 1359] [client 82.223.32.193:49686] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:49.485480 2016] [access_compat:error] [pid 1410] [client 82.223.32.193:49688] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 16:54:51.386793 2016] [access_compat:error] [pid 1406] [client 82.223.32.193:49689] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:21:11.795234 2016] [:error] [pid 2052] [client 66.249.76.102:63608] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 17:44:09.312666 2016] [access_compat:error] [pid 2634] [client 82.223.32.193:50188] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:16.174456 2016] [access_compat:error] [pid 2688] [client 82.223.32.193:50213] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:18.512178 2016] [access_compat:error] [pid 2688] [client 82.223.32.193:50216] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:23.850065 2016] [access_compat:error] [pid 2629] [client 82.223.32.193:50218] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:24.589482 2016] [access_compat:error] [pid 2646] [client 82.223.32.193:50219] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:36.395820 2016] [access_compat:error] [pid 2647] [client 82.223.32.193:50221] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:41.735885 2016] [access_compat:error] [pid 2695] [client 82.223.32.193:50223] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:52.150270 2016] [access_compat:error] [pid 2641] [client 82.223.32.193:50226] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:45:56.568563 2016] [access_compat:error] [pid 2700] [client 82.223.32.193:50227] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:46:04.990115 2016] [access_compat:error] [pid 2646] [client 82.223.32.193:50228] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:46:18.906238 2016] [access_compat:error] [pid 2706] [client 82.223.32.193:50232] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:46:21.105129 2016] [access_compat:error] [pid 2691] [client 82.223.32.193:50233] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:46:25.442965 2016] [access_compat:error] [pid 2705] [client 82.223.32.193:50234] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:46:31.966876 2016] [access_compat:error] [pid 2696] [client 82.223.32.193:50235] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:47:04.109776 2016] [access_compat:error] [pid 2571] [client 82.223.32.193:50246] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 17:47:07.225135 2016] [access_compat:error] [pid 2614] [client 82.223.32.193:50247] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:07:52.479522 2016] [:error] [pid 3242] [client 164.132.161.4:34994] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 18:27:21.938980 2016] [access_compat:error] [pid 3611] [client 82.223.32.193:50699] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:27:27.886539 2016] [access_compat:error] [pid 3660] [client 82.223.32.193:50702] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:27:51.354467 2016] [access_compat:error] [pid 3611] [client 82.223.32.193:50704] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:28:06.048230 2016] [access_compat:error] [pid 3676] [client 82.223.32.193:50706] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:28:12.185304 2016] [access_compat:error] [pid 3660] [client 82.223.32.193:50707] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:44:48.860717 2016] [access_compat:error] [pid 3987] [client 82.223.32.193:50824] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 18:54:28.037697 2016] [ssl:error] [pid 4215] AH02032: Hostname 82.223.32.193 provided via SNI and hostname my-dermacenter.es provided via HTTP are different
+[Mon Sep 26 19:16:05.308598 2016] [access_compat:error] [pid 4708] [client 82.223.32.193:51159] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:16:09.048700 2016] [access_compat:error] [pid 4708] [client 82.223.32.193:51162] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:18:28.534083 2016] [access_compat:error] [pid 4782] [client 82.223.32.193:51193] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:21:08.604435 2016] [access_compat:error] [pid 4803] [client 82.223.32.193:51232] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:21:14.161014 2016] [access_compat:error] [pid 4803] [client 82.223.32.193:51234] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:25:43.992844 2016] [access_compat:error] [pid 4903] [client 82.223.32.193:51305] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:27:47.972121 2016] [access_compat:error] [pid 5037] [client 82.223.32.193:51340] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:27:52.337161 2016] [access_compat:error] [pid 4980] [client 82.223.32.193:51342] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:27:59.032114 2016] [access_compat:error] [pid 4952] [client 82.223.32.193:51344] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:28:58.090524 2016] [access_compat:error] [pid 5044] [client 82.223.32.193:51351] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:29:04.390182 2016] [access_compat:error] [pid 4970] [client 82.223.32.193:51352] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:29:24.501617 2016] [access_compat:error] [pid 4968] [client 82.223.32.193:51356] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:29:33.320367 2016] [access_compat:error] [pid 4968] [client 82.223.32.193:51361] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Mon Sep 26 19:42:05.148317 2016] [:error] [pid 5281] [client 66.249.76.100:39426] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 20:30:45.441535 2016] [:error] [pid 7416] [client 66.249.76.100:38618] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 20:30:55.684280 2016] [:error] [pid 7413] [client 66.249.76.102:56737] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 20:31:23.067789 2016] [:error] [pid 7513] [client 66.249.76.100:61617] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 21:57:27.004374 2016] [:error] [pid 12873] [client 85.56.13.123:44233] ICPDEV: Order Success ID: MYT1000307 Total 36.9000, referer: https://hpp.realexpayments.com/card.html?guid=be6b0928-5fa4-4cec-aa66-fe4d34e78d7d
+[Mon Sep 26 23:13:38.044319 2016] [:error] [pid 15408] [client 66.249.76.102:35594] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 23:13:48.445730 2016] [:error] [pid 15413] [client 66.249.76.104:59343] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Mon Sep 26 23:55:10.589793 2016] [:error] [pid 16372] [client 80.102.90.188:60974] ICPDEV: Order Success ID: MYT1000308 Total 12.4500, referer: https://hpp.realexpayments.com/card.html?guid=5c4fccdb-805f-4f89-a14e-dcacbf1cdcc2
+[Tue Sep 27 02:01:00.278211 2016] [:error] [pid 18827] [client 66.249.76.104:44110] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 02:32:43.898134 2016] [:error] [pid 19442] [client 66.249.69.84:63185] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 02:33:01.062552 2016] [:error] [pid 19434] [client 66.249.76.102:42698] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 02:41:08.831299 2016] [:error] [pid 19516] [client 66.249.76.100:48544] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 05:28:47.959871 2016] [:error] [pid 21982] [client 66.249.69.84:33914] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 05:28:58.332093 2016] [:error] [pid 21979] [client 66.249.76.100:64217] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 07:15:16.445618 2016] [access_compat:error] [pid 23714] [client 82.223.32.193:55685] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:15:31.100830 2016] [access_compat:error] [pid 23334] [client 82.223.32.193:55686] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:15:47.689045 2016] [access_compat:error] [pid 23230] [client 82.223.32.193:55688] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:15:49.560053 2016] [access_compat:error] [pid 23714] [client 82.223.32.193:55689] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:15:50.329041 2016] [access_compat:error] [pid 23859] [client 82.223.32.193:55690] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:01.735893 2016] [access_compat:error] [pid 23824] [client 82.223.32.193:55692] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:05.438514 2016] [access_compat:error] [pid 23824] [client 82.223.32.193:55693] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:06.194474 2016] [access_compat:error] [pid 22692] [client 82.223.32.193:55694] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:16.784644 2016] [access_compat:error] [pid 23292] [client 82.223.32.193:55695] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:29.468138 2016] [access_compat:error] [pid 23334] [client 82.223.32.193:55696] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:16:54.932103 2016] [access_compat:error] [pid 23824] [client 82.223.32.193:55698] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:19:37.133013 2016] [access_compat:error] [pid 23334] [client 82.223.32.193:55701] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:19:47.563666 2016] [access_compat:error] [pid 23824] [client 82.223.32.193:55705] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:20:06.784258 2016] [access_compat:error] [pid 23334] [client 82.223.32.193:55707] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:20:22.776826 2016] [access_compat:error] [pid 23676] [client 82.223.32.193:55711] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:20:27.796354 2016] [access_compat:error] [pid 23958] [client 82.223.32.193:55714] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:20:58.620984 2016] [access_compat:error] [pid 23953] [client 82.223.32.193:55716] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:21:20.447864 2016] [access_compat:error] [pid 23958] [client 82.223.32.193:55718] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:21:32.073012 2016] [access_compat:error] [pid 23869] [client 82.223.32.193:55722] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:21:59.481135 2016] [access_compat:error] [pid 23958] [client 82.223.32.193:55729] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:22:16.719407 2016] [access_compat:error] [pid 23953] [client 82.223.32.193:55735] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:23:15.004577 2016] [access_compat:error] [pid 24007] [client 82.223.32.193:55740] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:23:52.938424 2016] [access_compat:error] [pid 24016] [client 82.223.32.193:55741] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:26:27.385531 2016] [access_compat:error] [pid 23999] [client 82.223.32.193:55747] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:42:29.440407 2016] [access_compat:error] [pid 24728] [client 82.223.32.193:55812] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:43:32.921598 2016] [access_compat:error] [pid 24571] [client 82.223.32.193:55817] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:44:40.964185 2016] [access_compat:error] [pid 24737] [client 82.223.32.193:55822] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:44:45.477491 2016] [access_compat:error] [pid 24571] [client 82.223.32.193:55823] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:45:09.385841 2016] [access_compat:error] [pid 24830] [client 82.223.32.193:55827] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:45:15.412468 2016] [:error] [pid 24829] [client 62.14.44.26:65136] PHP Fatal error:  Cannot redeclare class Mage_Checkout_OnepageController in /var/www/html/app/code/local/Mage/Checkout/controllers/OnepageController.php on line 660, referer: https://www.my-dermacenter.es/checkout/onepage/
+[Tue Sep 27 07:46:12.487414 2016] [access_compat:error] [pid 24729] [client 82.223.32.193:55829] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:46:47.418438 2016] [access_compat:error] [pid 24874] [client 82.223.32.193:55833] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 07:57:47.897696 2016] [access_compat:error] [pid 25168] [client 82.223.32.193:55859] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:01:13.448868 2016] [access_compat:error] [pid 24739] [client 82.223.32.193:55863] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:09:20.580926 2016] [:error] [pid 25408] [client 62.14.44.26:52637] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 08:10:12.550606 2016] [access_compat:error] [pid 25415] [client 82.223.32.193:55870] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:10:15.004353 2016] [:error] [pid 25416] [client 62.14.44.26:49245] PHP Fatal error:  Cannot redeclare class Mage_Checkout_OnepageController in /var/www/html/app/code/local/Mage/Checkout/controllers/OnepageController.php on line 660, referer: https://www.my-dermacenter.es/checkout/onepage/
+[Tue Sep 27 08:11:59.740830 2016] [:error] [pid 25484] [client 62.14.44.26:49268] PHP Fatal error:  Cannot redeclare class Mage_Checkout_OnepageController in /var/www/html/app/code/local/Mage/Checkout/controllers/OnepageController.php on line 660, referer: https://www.my-dermacenter.es/checkout/onepage/
+[Tue Sep 27 08:13:11.525170 2016] [access_compat:error] [pid 25416] [client 82.223.32.193:55881] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:14:33.145606 2016] [access_compat:error] [pid 24571] [client 82.223.32.193:55892] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:19:40.069014 2016] [:error] [pid 25408] [client 62.14.44.26:1261] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 08:22:54.365401 2016] [access_compat:error] [pid 25613] [client 82.223.32.193:55899] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:23:13.924450 2016] [access_compat:error] [pid 25647] [client 82.223.32.193:55900] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:23:21.097553 2016] [access_compat:error] [pid 25607] [client 82.223.32.193:55901] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:26:24.163388 2016] [:error] [pid 25613] [client 62.14.44.26:49657] PHP Fatal error:  Cannot redeclare class Mage_Checkout_OnepageController in /var/www/html/app/code/local/Mage/Checkout/controllers/OnepageController.php on line 660, referer: https://www.my-dermacenter.es/checkout/onepage/
+[Tue Sep 27 08:29:20.456268 2016] [access_compat:error] [pid 24571] [client 82.223.32.193:55916] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:29:28.645224 2016] [access_compat:error] [pid 25214] [client 82.223.32.193:55917] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:29:59.080899 2016] [:error] [pid 25177] [client 62.14.44.26:54335] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 08:31:05.030534 2016] [access_compat:error] [pid 25857] [client 82.223.32.193:55926] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:31:10.337061 2016] [access_compat:error] [pid 25819] [client 82.223.32.193:55927] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:31:17.297787 2016] [access_compat:error] [pid 26052] [client 82.223.32.193:55928] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:33:05.908856 2016] [access_compat:error] [pid 26053] [client 82.223.32.193:55934] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:33:14.148183 2016] [access_compat:error] [pid 26140] [client 82.223.32.193:55940] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:33:22.209711 2016] [access_compat:error] [pid 26012] [client 82.223.32.193:55947] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:33:25.489116 2016] [access_compat:error] [pid 26053] [client 82.223.32.193:55948] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:33:31.797195 2016] [:error] [pid 25945] [client 62.14.44.26:1273] PHP Fatal error:  Cannot redeclare class Mage_Checkout_OnepageController in /var/www/html/app/code/local/Mage/Checkout/controllers/OnepageController.php on line 660, referer: https://www.my-dermacenter.es/checkout/onepage/
+[Tue Sep 27 08:33:55.750108 2016] [access_compat:error] [pid 25819] [client 82.223.32.193:55950] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:34:01.866201 2016] [access_compat:error] [pid 25819] [client 82.223.32.193:55953] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:34:20.425030 2016] [access_compat:error] [pid 24871] [client 82.223.32.193:55954] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:34:29.427213 2016] [access_compat:error] [pid 26012] [client 82.223.32.193:55960] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:34:40.539495 2016] [access_compat:error] [pid 26157] [client 82.223.32.193:55961] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:34:46.315074 2016] [access_compat:error] [pid 26054] [client 82.223.32.193:55971] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:35:04.330795 2016] [access_compat:error] [pid 26156] [client 82.223.32.193:55976] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:35:20.514282 2016] [access_compat:error] [pid 26051] [client 82.223.32.193:55977] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:36:12.357686 2016] [access_compat:error] [pid 26155] [client 82.223.32.193:55984] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:40:18.365695 2016] [:error] [pid 26213] [client 62.14.44.26:54351] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 08:42:52.780945 2016] [access_compat:error] [pid 26429] [client 82.223.32.193:56014] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:48:04.050988 2016] [access_compat:error] [pid 26163] [client 82.223.32.193:56029] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:48:09.321522 2016] [access_compat:error] [pid 26161] [client 82.223.32.193:56030] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:48:13.709322 2016] [access_compat:error] [pid 26552] [client 82.223.32.193:56031] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:48:20.265486 2016] [access_compat:error] [pid 26552] [client 82.223.32.193:56032] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:50:13.498821 2016] [access_compat:error] [pid 26691] [client 82.223.32.193:56039] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:50:37.536967 2016] [:error] [pid 26685] [client 62.14.44.26:1257] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 08:54:59.142242 2016] [access_compat:error] [pid 26691] [client 82.223.32.193:56049] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:55:08.913443 2016] [access_compat:error] [pid 26688] [client 82.223.32.193:56050] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:55:15.316420 2016] [access_compat:error] [pid 26211] [client 82.223.32.193:56051] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:55:23.339214 2016] [access_compat:error] [pid 26695] [client 82.223.32.193:56057] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:55:31.433406 2016] [access_compat:error] [pid 26423] [client 82.223.32.193:56063] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:55:33.465974 2016] [access_compat:error] [pid 26685] [client 82.223.32.193:56064] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:56:10.372766 2016] [access_compat:error] [pid 26695] [client 82.223.32.193:56066] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 08:58:02.911606 2016] [access_compat:error] [pid 26906] [client 82.223.32.193:56068] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:00:56.776838 2016] [:error] [pid 27065] [client 62.14.44.26:1171] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://www.my-dermacenter.es/index.php/api/v2_soap/index/?wsdl=1' : Extra content at the end of the document\n in /var/www/html/lib/Zend/Soap/Server.php on line 814
+[Tue Sep 27 09:02:18.148288 2016] [access_compat:error] [pid 26770] [client 82.223.32.193:56082] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:03:22.405714 2016] [access_compat:error] [pid 27069] [client 82.223.32.193:56089] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:06:44.400810 2016] [access_compat:error] [pid 27173] [client 82.223.32.193:56105] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:08:10.813195 2016] [access_compat:error] [pid 27081] [client 82.223.32.193:56108] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:09:00.505965 2016] [access_compat:error] [pid 26770] [client 82.223.32.193:56112] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:00.252430 2016] [access_compat:error] [pid 27325] [client 82.223.32.193:56149] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:01.698272 2016] [access_compat:error] [pid 27220] [client 82.223.32.193:56152] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:07.702889 2016] [access_compat:error] [pid 27324] [client 82.223.32.193:56153] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:13.660303 2016] [access_compat:error] [pid 27326] [client 82.223.32.193:56154] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:19.703879 2016] [access_compat:error] [pid 27325] [client 82.223.32.193:56155] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:25.717425 2016] [access_compat:error] [pid 27278] [client 82.223.32.193:56156] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:15:31.678662 2016] [access_compat:error] [pid 27286] [client 82.223.32.193:56157] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:37:53.426186 2016] [access_compat:error] [pid 27766] [client 82.223.32.193:56343] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:39:21.929292 2016] [access_compat:error] [pid 27785] [client 82.223.32.193:56354] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:40:02.436526 2016] [access_compat:error] [pid 27767] [client 82.223.32.193:56355] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:40:44.953828 2016] [access_compat:error] [pid 27788] [client 82.223.32.193:56366] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:48:21.158010 2016] [access_compat:error] [pid 28122] [client 82.223.32.193:56446] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:51:20.923460 2016] [:error] [pid 28084] [client 66.249.76.100:61654] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 09:56:58.964996 2016] [access_compat:error] [pid 28273] [client 82.223.32.193:56566] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:57:26.237121 2016] [access_compat:error] [pid 28296] [client 82.223.32.193:56571] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 09:59:57.722703 2016] [access_compat:error] [pid 28356] [client 82.223.32.193:56591] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:00:00.204559 2016] [access_compat:error] [pid 28308] [client 82.223.32.193:56592] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:00:20.034952 2016] [access_compat:error] [pid 28362] [client 82.223.32.193:56595] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:00:22.637424 2016] [access_compat:error] [pid 28356] [client 82.223.32.193:56596] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:01:04.590949 2016] [access_compat:error] [pid 28364] [client 82.223.32.193:56598] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:01:09.067193 2016] [access_compat:error] [pid 28399] [client 82.223.32.193:56599] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:01:27.640037 2016] [access_compat:error] [pid 28403] [client 82.223.32.193:56603] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:04:17.522373 2016] [access_compat:error] [pid 28469] [client 82.223.32.193:56654] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:29.234216 2016] [access_compat:error] [pid 28619] [client 82.223.32.193:56728] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:34.644948 2016] [access_compat:error] [pid 28619] [client 82.223.32.193:56732] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:39.848027 2016] [access_compat:error] [pid 28619] [client 82.223.32.193:56734] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:40.625584 2016] [access_compat:error] [pid 28656] [client 82.223.32.193:56735] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:47.765182 2016] [access_compat:error] [pid 28692] [client 82.223.32.193:56736] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:49.882319 2016] [access_compat:error] [pid 28691] [client 82.223.32.193:56737] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:50.646205 2016] [access_compat:error] [pid 28612] [client 82.223.32.193:56738] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:17:57.268205 2016] [access_compat:error] [pid 28717] [client 82.223.32.193:56739] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:01.025990 2016] [access_compat:error] [pid 28616] [client 82.223.32.193:56740] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:02.683720 2016] [access_compat:error] [pid 28610] [client 82.223.32.193:56741] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:05.339466 2016] [access_compat:error] [pid 28719] [client 82.223.32.193:56742] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:06.087402 2016] [access_compat:error] [pid 28610] [client 82.223.32.193:56743] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:12.764326 2016] [access_compat:error] [pid 28721] [client 82.223.32.193:56751] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:15.797314 2016] [access_compat:error] [pid 28493] [client 82.223.32.193:56755] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:16.533427 2016] [access_compat:error] [pid 28705] [client 82.223.32.193:56756] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:21.865700 2016] [access_compat:error] [pid 28704] [client 82.223.32.193:56763] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:24.015491 2016] [access_compat:error] [pid 28700] [client 82.223.32.193:56765] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:44.717981 2016] [access_compat:error] [pid 28710] [client 82.223.32.193:56767] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:48.503831 2016] [access_compat:error] [pid 28713] [client 82.223.32.193:56768] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:49.333137 2016] [access_compat:error] [pid 28757] [client 82.223.32.193:56769] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:18:57.474863 2016] [access_compat:error] [pid 28755] [client 82.223.32.193:56772] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:00.505779 2016] [access_compat:error] [pid 28755] [client 82.223.32.193:56773] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:01.259032 2016] [access_compat:error] [pid 28757] [client 82.223.32.193:56774] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:10.665055 2016] [access_compat:error] [pid 28766] [client 82.223.32.193:56775] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:13.352912 2016] [access_compat:error] [pid 28766] [client 82.223.32.193:56777] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:14.141499 2016] [access_compat:error] [pid 28782] [client 82.223.32.193:56779] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:20.111193 2016] [access_compat:error] [pid 28767] [client 82.223.32.193:56786] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:23.301541 2016] [access_compat:error] [pid 28712] [client 82.223.32.193:56790] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:24.064661 2016] [access_compat:error] [pid 28786] [client 82.223.32.193:56791] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:36.309494 2016] [access_compat:error] [pid 28757] [client 82.223.32.193:56803] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:19:43.091827 2016] [access_compat:error] [pid 28767] [client 82.223.32.193:56811] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:20:19.409446 2016] [access_compat:error] [pid 28770] [client 82.223.32.193:56815] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:20:22.075070 2016] [access_compat:error] [pid 28758] [client 82.223.32.193:56816] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:20:29.767261 2016] [access_compat:error] [pid 28769] [client 82.223.32.193:56817] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:20:31.259524 2016] [access_compat:error] [pid 28769] [client 82.223.32.193:56818] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:20:32.034446 2016] [access_compat:error] [pid 28774] [client 82.223.32.193:56819] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:30:39.130423 2016] [access_compat:error] [pid 28945] [client 82.223.32.193:56885] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:36:11.017218 2016] [:error] [pid 29056] [client 66.249.69.82:44873] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 10:50:13.120797 2016] [access_compat:error] [pid 29275] [client 82.223.32.193:57038] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:50:26.310999 2016] [access_compat:error] [pid 29435] [client 82.223.32.193:57051] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:52:52.248693 2016] [access_compat:error] [pid 29486] [client 82.223.32.193:57058] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:53:02.291219 2016] [access_compat:error] [pid 29488] [client 82.223.32.193:57060] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:56:23.431964 2016] [access_compat:error] [pid 29538] [client 82.223.32.193:57074] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:56:26.421357 2016] [access_compat:error] [pid 29539] [client 82.223.32.193:57075] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 10:56:27.220062 2016] [access_compat:error] [pid 29538] [client 82.223.32.193:57076] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 11:08:20.586931 2016] [:error] [pid 29716] [client 66.249.69.82:39477] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 11:45:28.528913 2016] [access_compat:error] [pid 30539] [client 82.223.32.193:57372] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 11:48:00.936567 2016] [access_compat:error] [pid 30611] [client 82.223.32.193:57399] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:00:08.373362 2016] [access_compat:error] [pid 31189] [client 82.223.32.193:57615] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:00:25.380147 2016] [access_compat:error] [pid 31191] [client 82.223.32.193:57624] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:01:16.005573 2016] [access_compat:error] [pid 30889] [client 82.223.32.193:57633] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:17:57.796664 2016] [access_compat:error] [pid 31697] [client 82.223.32.193:57886] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:18:10.563797 2016] [access_compat:error] [pid 31769] [client 82.223.32.193:57887] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:18:28.727733 2016] [access_compat:error] [pid 31809] [client 82.223.32.193:57897] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:49:44.796618 2016] [access_compat:error] [pid 32596] [client 82.223.32.193:58256] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:49:48.497790 2016] [access_compat:error] [pid 32541] [client 82.223.32.193:58259] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:58:53.861526 2016] [access_compat:error] [pid 32822] [client 82.223.32.193:58345] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 12:58:59.341219 2016] [access_compat:error] [pid 32731] [client 82.223.32.193:58346] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:01:52.890318 2016] [access_compat:error] [pid 32931] [client 82.223.32.193:58376] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:02:06.768171 2016] [access_compat:error] [pid 32895] [client 82.223.32.193:58379] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:02:08.881508 2016] [access_compat:error] [pid 32693] [client 82.223.32.193:58380] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:02:11.739855 2016] [access_compat:error] [pid 32906] [client 82.223.32.193:58381] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:02:48.698813 2016] [access_compat:error] [pid 32938] [client 82.223.32.193:58391] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:02:51.241253 2016] [access_compat:error] [pid 32937] [client 82.223.32.193:58392] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:03:55.767159 2016] [access_compat:error] [pid 32693] [client 82.223.32.193:58407] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:04:13.635464 2016] [access_compat:error] [pid 32991] [client 82.223.32.193:58416] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:04:23.367240 2016] [access_compat:error] [pid 32992] [client 82.223.32.193:58417] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:04:32.011910 2016] [access_compat:error] [pid 32987] [client 82.223.32.193:58419] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 13:05:31.602800 2016] [access_compat:error] [pid 32937] [client 82.223.32.193:58437] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:19:51.919088 2016] [access_compat:error] [pid 34758] [client 82.223.32.193:59165] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:19:57.836433 2016] [access_compat:error] [pid 34718] [client 82.223.32.193:59173] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:20:02.378362 2016] [access_compat:error] [pid 34821] [client 82.223.32.193:59175] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:23:19.964730 2016] [access_compat:error] [pid 34925] [client 82.223.32.193:59233] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:34:19.818010 2016] [access_compat:error] [pid 35081] [client 82.223.32.193:59326] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:34:24.664124 2016] [access_compat:error] [pid 35081] [client 82.223.32.193:59329] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 14:34:36.994741 2016] [access_compat:error] [pid 35081] [client 82.223.32.193:59331] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:00.345036 2016] [access_compat:error] [pid 35677] [client 82.223.32.193:59521] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:33.310799 2016] [access_compat:error] [pid 35740] [client 82.223.32.193:59535] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:35.667506 2016] [access_compat:error] [pid 35475] [client 82.223.32.193:59538] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:41.905185 2016] [access_compat:error] [pid 35740] [client 82.223.32.193:59539] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:50.237012 2016] [access_compat:error] [pid 35684] [client 82.223.32.193:59540] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:52.565722 2016] [access_compat:error] [pid 35755] [client 82.223.32.193:59541] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:10:57.785426 2016] [access_compat:error] [pid 35684] [client 82.223.32.193:59542] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:11:35.354934 2016] [access_compat:error] [pid 35755] [client 82.223.32.193:59549] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:11:38.187170 2016] [access_compat:error] [pid 35744] [client 82.223.32.193:59550] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:14:31.413512 2016] [access_compat:error] [pid 35808] [client 82.223.32.193:59611] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:31:38.426622 2016] [access_compat:error] [pid 36178] [client 82.223.32.193:59803] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:42:55.593698 2016] [access_compat:error] [pid 36534] [client 82.223.32.193:59920] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 15:46:06.206247 2016] [access_compat:error] [pid 36518] [client 82.223.32.193:59939] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:11:47.925101 2016] [access_compat:error] [pid 37255] [client 82.223.32.193:60256] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:11:59.628112 2016] [access_compat:error] [pid 37251] [client 82.223.32.193:60260] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:14:04.442363 2016] [access_compat:error] [pid 37299] [client 82.223.32.193:60294] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:21:22.225972 2016] [:error] [pid 37549] [client 81.44.12.197:52293] ICPDEV: Order Success ID: MYT1000313 Total 135.0000, referer: https://hpp.realexpayments.com/result.html?guid=aee073f9-d45c-4d7c-b52a-a87289f250a8
+[Tue Sep 27 16:26:33.527839 2016] [access_compat:error] [pid 37673] [client 82.223.32.193:60540] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:26:35.022296 2016] [access_compat:error] [pid 37692] [client 82.223.32.193:60543] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:26:40.989602 2016] [access_compat:error] [pid 37699] [client 82.223.32.193:60547] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:26:47.064066 2016] [access_compat:error] [pid 37698] [client 82.223.32.193:60554] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:26:49.833527 2016] [access_compat:error] [pid 37688] [client 82.223.32.193:60558] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:26:54.853406 2016] [access_compat:error] [pid 37664] [client 82.223.32.193:60559] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:27:31.096996 2016] [access_compat:error] [pid 37687] [client 82.223.32.193:60563] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:29:42.111568 2016] [access_compat:error] [pid 37779] [client 82.223.32.193:60604] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:29:52.414849 2016] [access_compat:error] [pid 37778] [client 82.223.32.193:60605] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:31:49.066009 2016] [access_compat:error] [pid 37846] [client 82.223.32.193:60645] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:31:54.575929 2016] [access_compat:error] [pid 37871] [client 82.223.32.193:60648] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:31:55.611342 2016] [access_compat:error] [pid 37881] [client 82.223.32.193:60651] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:01.307458 2016] [access_compat:error] [pid 37847] [client 82.223.32.193:60656] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:06.976687 2016] [access_compat:error] [pid 37850] [client 82.223.32.193:60663] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:12.308247 2016] [access_compat:error] [pid 37807] [client 82.223.32.193:60669] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:22.876524 2016] [access_compat:error] [pid 37807] [client 82.223.32.193:60673] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:32.696378 2016] [access_compat:error] [pid 37892] [client 82.223.32.193:60675] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:36.881421 2016] [access_compat:error] [pid 37891] [client 82.223.32.193:60677] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:45.692795 2016] [access_compat:error] [pid 37868] [client 82.223.32.193:60684] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:32:47.050326 2016] [access_compat:error] [pid 37844] [client 82.223.32.193:60686] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:02.157984 2016] [access_compat:error] [pid 37880] [client 82.223.32.193:60688] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:08.133484 2016] [access_compat:error] [pid 37844] [client 82.223.32.193:60689] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:09.390324 2016] [access_compat:error] [pid 37698] [client 82.223.32.193:60690] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:43.343966 2016] [access_compat:error] [pid 37618] [client 82.223.32.193:60696] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:48.842732 2016] [access_compat:error] [pid 37618] [client 82.223.32.193:60697] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:33:59.274825 2016] [access_compat:error] [pid 37931] [client 82.223.32.193:60699] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:34:25.867840 2016] [access_compat:error] [pid 37777] [client 82.223.32.193:60709] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:34:26.849649 2016] [:error] [pid 37777] [client 92.176.146.165:64899] ICPDEV: Order Success ID: MYT1000314 Total 28.0000, referer: https://hpp.realexpayments.com/card.html?guid=22ca9407-a895-437e-8e15-21618a21430c
+[Tue Sep 27 16:34:26.988748 2016] [access_compat:error] [pid 37930] [client 82.223.32.193:60710] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:37:39.936168 2016] [access_compat:error] [pid 37932] [client 82.223.32.193:60759] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:38:14.399339 2016] [access_compat:error] [pid 38220] [client 82.223.32.193:60767] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:38:28.713429 2016] [access_compat:error] [pid 37998] [client 82.223.32.193:60778] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:38:36.452343 2016] [access_compat:error] [pid 38134] [client 82.223.32.193:60783] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:40:58.326066 2016] [access_compat:error] [pid 38408] [client 82.223.32.193:60861] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:41:06.024457 2016] [access_compat:error] [pid 38389] [client 82.223.32.193:60868] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:41:19.074398 2016] [access_compat:error] [pid 38437] [client 82.223.32.193:60878] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:41:29.369444 2016] [access_compat:error] [pid 38324] [client 82.223.32.193:60907] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:43:45.289416 2016] [access_compat:error] [pid 38506] [client 82.223.32.193:60962] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:43:46.529930 2016] [access_compat:error] [pid 38506] [client 82.223.32.193:60965] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:43:52.505191 2016] [access_compat:error] [pid 38494] [client 82.223.32.193:60967] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:43:58.529023 2016] [access_compat:error] [pid 38409] [client 82.223.32.193:60970] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:44:04.682579 2016] [access_compat:error] [pid 38512] [client 82.223.32.193:60972] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:44:10.738250 2016] [access_compat:error] [pid 38515] [client 82.223.32.193:60976] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:44:11.553195 2016] [access_compat:error] [pid 38445] [client 82.223.32.193:60977] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:44:16.143962 2016] [access_compat:error] [pid 38517] [client 82.223.32.193:60978] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:44:37.215860 2016] [access_compat:error] [pid 38513] [client 82.223.32.193:60984] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:46:27.476371 2016] [access_compat:error] [pid 38566] [client 82.223.32.193:32769] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:46:31.411080 2016] [access_compat:error] [pid 38587] [client 82.223.32.193:32770] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 16:52:41.356360 2016] [access_compat:error] [pid 38806] [client 82.223.32.193:32872] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 17:18:48.636387 2016] [:error] [pid 39885] [client 66.249.76.102:46268] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 17:19:17.644423 2016] [:error] [pid 39952] [client 66.249.76.100:64066] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 17:20:45.264919 2016] [:error] [pid 39970] [client 66.249.76.104:55270] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 17:28:45.386578 2016] [access_compat:error] [pid 40273] [client 82.223.32.193:33456] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 17:41:11.729834 2016] [:error] [pid 40614] [client 66.249.69.84:34435] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 17:50:06.208491 2016] [:error] [pid 40847] [client 83.175.238.128:53224] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 17:50:08.388813 2016] [:error] [pid 40869] [client 83.175.238.128:53229] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 18:04:15.884502 2016] [:error] [pid 41175] [client 88.84.71.78:14463] ICPDEV: Order Success ID: MYT1000316 Total 22.0000, referer: https://www.my-dermacenter.es/paypal/express/review/
+[Tue Sep 27 18:18:58.339687 2016] [access_compat:error] [pid 41551] [client 82.223.32.193:34192] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:22:47.482585 2016] [access_compat:error] [pid 41648] [client 82.223.32.193:34240] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:40:16.826496 2016] [access_compat:error] [pid 42069] [client 82.223.32.193:34451] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:40:36.657531 2016] [access_compat:error] [pid 42065] [client 82.223.32.193:34460] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:40:47.057618 2016] [access_compat:error] [pid 42065] [client 82.223.32.193:34463] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:40:49.228838 2016] [access_compat:error] [pid 42067] [client 82.223.32.193:34464] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:40:59.931276 2016] [access_compat:error] [pid 42077] [client 82.223.32.193:34467] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:41:09.843698 2016] [access_compat:error] [pid 42077] [client 82.223.32.193:34469] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:41:11.055350 2016] [access_compat:error] [pid 42074] [client 82.223.32.193:34470] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:41:37.179389 2016] [access_compat:error] [pid 42097] [client 82.223.32.193:34475] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:41:38.313814 2016] [access_compat:error] [pid 42070] [client 82.223.32.193:34476] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:41:54.435792 2016] [access_compat:error] [pid 42016] [client 82.223.32.193:34479] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:42:16.366718 2016] [access_compat:error] [pid 42097] [client 82.223.32.193:34484] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:42:24.168548 2016] [access_compat:error] [pid 42083] [client 82.223.32.193:34487] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:42:25.434879 2016] [access_compat:error] [pid 42083] [client 82.223.32.193:34488] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:43:01.135922 2016] [access_compat:error] [pid 42104] [client 82.223.32.193:34492] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:43:02.779928 2016] [access_compat:error] [pid 42141] [client 82.223.32.193:34493] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:43:10.740074 2016] [access_compat:error] [pid 42141] [client 82.223.32.193:34494] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:43:38.867274 2016] [access_compat:error] [pid 42016] [client 82.223.32.193:34498] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 18:43:43.954482 2016] [access_compat:error] [pid 42093] [client 82.223.32.193:34504] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:08:46.948685 2016] [access_compat:error] [pid 42632] [client 82.223.32.193:34738] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:08:50.537446 2016] [access_compat:error] [pid 42632] [client 82.223.32.193:34739] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:16:19.174684 2016] [access_compat:error] [pid 42747] [client 82.223.32.193:34782] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:29:33.500947 2016] [:error] [pid 42907] [client 66.249.76.100:37113] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 19:36:44.861225 2016] [access_compat:error] [pid 43294] [client 82.223.32.193:34880] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:41:03.193642 2016] [access_compat:error] [pid 43352] [client 82.223.32.193:34900] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 19:59:47.693880 2016] [access_compat:error] [pid 43788] [client 82.223.32.193:35005] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 20:04:53.607541 2016] [access_compat:error] [pid 43883] [client 82.223.32.193:35034] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 20:28:17.131073 2016] [access_compat:error] [pid 44260] [client 82.223.32.193:35147] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 20:31:13.454954 2016] [:error] [pid 44261] [client 157.55.39.10:18825] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Tue Sep 27 20:39:19.718109 2016] [access_compat:error] [pid 44352] [client 82.223.32.193:35200] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:24:47.859490 2016] [access_compat:error] [pid 46756] [client 82.223.32.193:36270] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:24:56.019142 2016] [access_compat:error] [pid 46795] [client 82.223.32.193:36273] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:26:40.816067 2016] [access_compat:error] [pid 46795] [client 82.223.32.193:36280] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:27:13.487679 2016] [access_compat:error] [pid 46813] [client 82.223.32.193:36282] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:27:18.589200 2016] [access_compat:error] [pid 46750] [client 82.223.32.193:36283] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:27:32.223907 2016] [access_compat:error] [pid 46795] [client 82.223.32.193:36285] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:28:02.051365 2016] [access_compat:error] [pid 46813] [client 82.223.32.193:36290] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:28:06.592941 2016] [access_compat:error] [pid 46811] [client 82.223.32.193:36295] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:28:26.164146 2016] [access_compat:error] [pid 46795] [client 82.223.32.193:36299] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:28:34.760234 2016] [access_compat:error] [pid 46800] [client 82.223.32.193:36300] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:28:38.415884 2016] [access_compat:error] [pid 46852] [client 82.223.32.193:36301] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:29:15.793055 2016] [access_compat:error] [pid 46875] [client 82.223.32.193:36308] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:29:24.386917 2016] [access_compat:error] [pid 46811] [client 82.223.32.193:36310] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:29:47.221718 2016] [access_compat:error] [pid 46858] [client 82.223.32.193:36320] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:06.863392 2016] [access_compat:error] [pid 46922] [client 82.223.32.193:36327] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:07.902860 2016] [access_compat:error] [pid 46922] [client 82.223.32.193:36328] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:14.802756 2016] [access_compat:error] [pid 46931] [client 82.223.32.193:36329] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:23.650461 2016] [access_compat:error] [pid 46935] [client 82.223.32.193:36332] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:27.910157 2016] [access_compat:error] [pid 46799] [client 82.223.32.193:36336] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:31.951400 2016] [access_compat:error] [pid 46750] [client 82.223.32.193:36341] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:32.328540 2016] [access_compat:error] [pid 46933] [client 82.223.32.193:36342] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:40.925501 2016] [access_compat:error] [pid 46867] [client 82.223.32.193:36345] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:30:48.961169 2016] [access_compat:error] [pid 46867] [client 82.223.32.193:36346] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:31:36.575163 2016] [access_compat:error] [pid 46947] [client 82.223.32.193:36359] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:33:16.500253 2016] [access_compat:error] [pid 47005] [client 82.223.32.193:36405] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:34:12.674690 2016] [access_compat:error] [pid 47070] [client 82.223.32.193:36427] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:34:23.849053 2016] [access_compat:error] [pid 47065] [client 82.223.32.193:36435] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:35:09.686396 2016] [access_compat:error] [pid 47056] [client 82.223.32.193:36450] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:35:25.582712 2016] [access_compat:error] [pid 47090] [client 82.223.32.193:36459] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:35:34.760357 2016] [access_compat:error] [pid 47083] [client 82.223.32.193:36464] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:35:50.701456 2016] [access_compat:error] [pid 47094] [client 82.223.32.193:36474] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:36:50.685828 2016] [access_compat:error] [pid 47044] [client 82.223.32.193:36484] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:45:15.256182 2016] [access_compat:error] [pid 47241] [client 82.223.32.193:36598] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:45:22.324974 2016] [access_compat:error] [pid 47368] [client 82.223.32.193:36601] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:46:36.167438 2016] [access_compat:error] [pid 47369] [client 82.223.32.193:36617] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:48:19.164970 2016] [access_compat:error] [pid 47366] [client 82.223.32.193:36619] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:48:39.564032 2016] [access_compat:error] [pid 47247] [client 82.223.32.193:36620] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:48:41.063794 2016] [access_compat:error] [pid 47365] [client 82.223.32.193:36621] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:49:49.509987 2016] [access_compat:error] [pid 47247] [client 82.223.32.193:36622] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:50:50.550181 2016] [access_compat:error] [pid 47371] [client 82.223.32.193:36623] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:50:56.672215 2016] [access_compat:error] [pid 47413] [client 82.223.32.193:36626] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:53:50.171940 2016] [access_compat:error] [pid 47365] [client 82.223.32.193:36654] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:54:10.079068 2016] [access_compat:error] [pid 47605] [client 82.223.32.193:36659] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:54:11.214704 2016] [access_compat:error] [pid 47606] [client 82.223.32.193:36660] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:54:18.172523 2016] [access_compat:error] [pid 47609] [client 82.223.32.193:36662] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:55:59.591168 2016] [access_compat:error] [pid 47655] [client 82.223.32.193:36684] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:56:00.809682 2016] [access_compat:error] [pid 47600] [client 82.223.32.193:36685] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:56:01.890164 2016] [access_compat:error] [pid 47669] [client 82.223.32.193:36686] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:56:06.071141 2016] [access_compat:error] [pid 47682] [client 82.223.32.193:36688] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:56:07.171777 2016] [access_compat:error] [pid 47683] [client 82.223.32.193:36689] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 22:56:17.576961 2016] [access_compat:error] [pid 47695] [client 82.223.32.193:36691] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Tue Sep 27 23:41:08.522047 2016] [:error] [pid 48625] [client 66.249.76.100:51660] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 00:02:20.392557 2016] [:error] [pid 49235] [client 77.228.127.62:59103] ICPDEV: Order Success ID: MYT1000319 Total 34.1000, referer: https://hpp.realexpayments.com/card.html?guid=5a89a1c5-0849-4f64-bef8-36adc157cfad
+[Wed Sep 28 00:12:59.469064 2016] [access_compat:error] [pid 49462] [client 82.223.32.193:37578] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:13:00.970110 2016] [access_compat:error] [pid 49474] [client 82.223.32.193:37581] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:13:06.941088 2016] [access_compat:error] [pid 49462] [client 82.223.32.193:37582] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:13:12.913458 2016] [access_compat:error] [pid 49483] [client 82.223.32.193:37583] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:19:03.596473 2016] [access_compat:error] [pid 49467] [client 82.223.32.193:37612] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:19:04.704602 2016] [access_compat:error] [pid 49467] [client 82.223.32.193:37615] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:19:10.368296 2016] [access_compat:error] [pid 49522] [client 82.223.32.193:37616] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:19:16.037864 2016] [access_compat:error] [pid 49529] [client 82.223.32.193:37617] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 00:26:39.370604 2016] [:error] [pid 49761] [client 51.255.65.11:35618] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 00:28:59.045977 2016] [:error] [pid 49693] [client 66.249.69.215:60890] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 00:32:45.615465 2016] [:error] [pid 49746] [client 66.249.76.100:34631] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 00:36:33.016615 2016] [:error] [pid 49903] [client 66.249.69.207:37582] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 05:35:26.279784 2016] [:error] [pid 53885] [client 66.249.69.215:55556] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 07:31:16.800625 2016] [:error] [pid 56102] [client 66.249.69.82:46103] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 08:26:46.616110 2016] [access_compat:error] [pid 57704] [client 82.223.32.193:38950] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:43:05.450414 2016] [access_compat:error] [pid 57998] [client 82.223.32.193:39028] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:43:19.664515 2016] [access_compat:error] [pid 58172] [client 82.223.32.193:39031] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:49:16.936990 2016] [access_compat:error] [pid 58368] [client 82.223.32.193:39090] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:49:24.519897 2016] [access_compat:error] [pid 58235] [client 82.223.32.193:39093] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:49:33.398325 2016] [access_compat:error] [pid 58386] [client 82.223.32.193:39097] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:49:49.058978 2016] [access_compat:error] [pid 58383] [client 82.223.32.193:39111] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:49:56.439996 2016] [access_compat:error] [pid 58377] [client 82.223.32.193:39114] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:50:13.223201 2016] [access_compat:error] [pid 58386] [client 82.223.32.193:39117] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:56:06.058980 2016] [:error] [pid 58602] [client 66.249.76.104:43209] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 08:56:33.500688 2016] [access_compat:error] [pid 58670] [client 82.223.32.193:39166] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:58:08.280100 2016] [access_compat:error] [pid 58727] [client 82.223.32.193:39170] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 08:59:52.906592 2016] [:error] [pid 58790] [client 66.249.76.100:53825] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 08:59:55.950184 2016] [access_compat:error] [pid 58790] [client 82.223.32.193:39171] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:00:03.799418 2016] [access_compat:error] [pid 58543] [client 82.223.32.193:39174] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:00:54.991330 2016] [access_compat:error] [pid 58879] [client 82.223.32.193:39176] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:01:07.135198 2016] [access_compat:error] [pid 58602] [client 82.223.32.193:39182] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:44:31.268297 2016] [access_compat:error] [pid 59670] [client 82.223.32.193:39471] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:45:48.183232 2016] [access_compat:error] [pid 59716] [client 82.223.32.193:39488] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:45:49.723204 2016] [access_compat:error] [pid 59711] [client 82.223.32.193:39489] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:45:59.882603 2016] [access_compat:error] [pid 59772] [client 82.223.32.193:39490] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 09:56:18.347612 2016] [mpm_prefork:error] [pid 61269] AH00161: server reached MaxRequestWorkers setting, consider raising the MaxRequestWorkers setting
+[Wed Sep 28 09:56:18.687943 2016] [:error] [pid 60235] [client 83.175.238.128:1332] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 09:56:20.249039 2016] [:error] [pid 60248] [client 83.175.238.128:52376] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 09:56:20.482071 2016] [:error] [pid 60256] [client 83.175.238.128:52388] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 09:56:54.227718 2016] [:error] [pid 60096] [client 83.175.238.128:52514] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 10:40:52.524719 2016] [:error] [pid 61154] [client 185.32.17.214:3126] ICPDEV: Order Success ID: MYT1000321 Total 117.3000, referer: https://hpp.realexpayments.com/result.html?guid=00ec7be2-9b93-47ed-b27d-c74c45016817
+[Wed Sep 28 11:16:17.262213 2016] [:error] [pid 61548] [client 213.143.49.70:59622] ICPDEV: Order Success ID: MYT1000322 Total 132.6000, referer: https://hpp.realexpayments.com/result.html?guid=a8283d9b-f8c1-4d70-afd6-a0026c5c2167
+[Wed Sep 28 11:24:55.956111 2016] [access_compat:error] [pid 61976] [client 82.223.32.193:40299] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:31:42.918955 2016] [access_compat:error] [pid 62085] [client 82.223.32.193:40352] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:31:59.096355 2016] [access_compat:error] [pid 62089] [client 82.223.32.193:40360] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:36:44.233014 2016] [access_compat:error] [pid 62333] [client 82.223.32.193:40390] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:36:49.965249 2016] [access_compat:error] [pid 62341] [client 82.223.32.193:40391] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:36:55.599933 2016] [access_compat:error] [pid 62085] [client 82.223.32.193:40396] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:37:02.076926 2016] [access_compat:error] [pid 62194] [client 82.223.32.193:40397] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:37:08.505123 2016] [access_compat:error] [pid 62342] [client 82.223.32.193:40398] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:40:39.764547 2016] [access_compat:error] [pid 62473] [client 82.223.32.193:40436] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:40:55.463972 2016] [access_compat:error] [pid 62336] [client 82.223.32.193:40440] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:41:44.250839 2016] [access_compat:error] [pid 62472] [client 82.223.32.193:40449] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:41:48.770160 2016] [access_compat:error] [pid 62494] [client 82.223.32.193:40450] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:42:15.330913 2016] [access_compat:error] [pid 62534] [client 82.223.32.193:40463] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:42:59.735479 2016] [access_compat:error] [pid 62488] [client 82.223.32.193:40483] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:43:28.328771 2016] [access_compat:error] [pid 62546] [client 82.223.32.193:40495] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:43:35.752196 2016] [access_compat:error] [pid 62533] [client 82.223.32.193:40496] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:43:50.349436 2016] [access_compat:error] [pid 62585] [client 82.223.32.193:40503] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:46:28.957672 2016] [:error] [pid 62647] [client 66.249.76.100:40675] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 11:54:13.327962 2016] [access_compat:error] [pid 62900] [client 82.223.32.193:40643] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:54:38.812505 2016] [access_compat:error] [pid 62949] [client 82.223.32.193:40654] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:57:24.593360 2016] [access_compat:error] [pid 62967] [client 82.223.32.193:40674] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:57:45.661847 2016] [access_compat:error] [pid 62965] [client 82.223.32.193:40680] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:57:50.412193 2016] [access_compat:error] [pid 62967] [client 82.223.32.193:40683] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:58:05.598196 2016] [access_compat:error] [pid 62964] [client 82.223.32.193:40684] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:58:18.026224 2016] [access_compat:error] [pid 63012] [client 82.223.32.193:40686] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:58:26.273661 2016] [access_compat:error] [pid 63010] [client 82.223.32.193:40687] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:58:31.502460 2016] [access_compat:error] [pid 62967] [client 82.223.32.193:40688] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 11:59:26.646364 2016] [access_compat:error] [pid 63018] [client 82.223.32.193:40699] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:00:34.299365 2016] [access_compat:error] [pid 62881] [client 82.223.32.193:40708] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:00:54.732798 2016] [access_compat:error] [pid 62730] [client 82.223.32.193:40709] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:01:07.949016 2016] [access_compat:error] [pid 63070] [client 82.223.32.193:40710] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:02:21.135725 2016] [access_compat:error] [pid 63012] [client 82.223.32.193:40722] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:02:25.577764 2016] [access_compat:error] [pid 63079] [client 82.223.32.193:40727] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:02:28.886501 2016] [access_compat:error] [pid 62351] [client 82.223.32.193:40730] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:09:13.824414 2016] [access_compat:error] [pid 63323] [client 82.223.32.193:40839] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:09:20.571402 2016] [access_compat:error] [pid 63231] [client 82.223.32.193:40842] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:23:32.102086 2016] [access_compat:error] [pid 64386] [client 82.223.32.193:41149] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:23:38.634702 2016] [access_compat:error] [pid 64057] [client 82.223.32.193:41154] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:23:42.233111 2016] [access_compat:error] [pid 64388] [client 82.223.32.193:41159] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:24:05.007004 2016] [access_compat:error] [pid 64411] [client 82.223.32.193:41168] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:24:08.662285 2016] [access_compat:error] [pid 64423] [client 82.223.32.193:41175] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:24:30.522266 2016] [access_compat:error] [pid 64484] [client 82.223.32.193:41181] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:26:12.253385 2016] [:error] [pid 64522] [client 195.76.147.233:56694] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 12:26:12.285105 2016] [:error] [pid 64553] [client 195.76.147.233:56695] PHP Fatal error:  Call to a member function getId() on a non-object in /var/www/html/app/code/local/Amasty/SeoReviews/Controller/Router.php on line 53
+[Wed Sep 28 12:26:29.311634 2016] [access_compat:error] [pid 64482] [client 82.223.32.193:41231] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:27:24.366510 2016] [access_compat:error] [pid 64748] [client 82.223.32.193:41247] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:29:15.481646 2016] [access_compat:error] [pid 64864] [client 82.223.32.193:41310] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:29:21.362197 2016] [access_compat:error] [pid 64798] [client 82.223.32.193:41318] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:29:29.133728 2016] [access_compat:error] [pid 64902] [client 82.223.32.193:41322] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:39:40.269989 2016] [access_compat:error] [pid 65413] [client 82.223.32.193:41658] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:40:42.159491 2016] [access_compat:error] [pid 337] [client 82.223.32.193:41679] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:41:29.610894 2016] [access_compat:error] [pid 371] [client 82.223.32.193:41699] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:53:48.805625 2016] [access_compat:error] [pid 886] [client 82.223.32.193:41995] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:53:51.498753 2016] [access_compat:error] [pid 828] [client 82.223.32.193:41996] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:55:08.907153 2016] [access_compat:error] [pid 939] [client 82.223.32.193:42019] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:56:55.813956 2016] [access_compat:error] [pid 944] [client 82.223.32.193:42054] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:57:57.707057 2016] [access_compat:error] [pid 1043] [client 82.223.32.193:42087] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:59:07.478300 2016] [access_compat:error] [pid 1058] [client 82.223.32.193:42093] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:59:16.104578 2016] [access_compat:error] [pid 1085] [client 82.223.32.193:42096] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:59:17.208668 2016] [core:notice] [pid 61269] AH00051: child pid 1050 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 12:59:27.891068 2016] [access_compat:error] [pid 1073] [client 82.223.32.193:42099] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 12:59:46.513321 2016] [access_compat:error] [pid 1060] [client 82.223.32.193:42101] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:00:20.295756 2016] [core:notice] [pid 61269] AH00051: child pid 961 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:00:36.326215 2016] [access_compat:error] [pid 1092] [client 82.223.32.193:42115] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:01:01.928677 2016] [access_compat:error] [pid 1116] [client 82.223.32.193:42116] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:02:02.465800 2016] [access_compat:error] [pid 1152] [client 82.223.32.193:42128] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:02:14.482101 2016] [core:notice] [pid 61269] AH00051: child pid 1084 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:02:48.059593 2016] [access_compat:error] [pid 1152] [client 82.223.32.193:42145] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:03:19.600170 2016] [core:notice] [pid 61269] AH00051: child pid 1134 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:04:24.669514 2016] [core:notice] [pid 61269] AH00051: child pid 1092 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:04:43.690824 2016] [core:notice] [pid 61269] AH00051: child pid 1155 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:05:48.791640 2016] [core:notice] [pid 61269] AH00051: child pid 1206 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:06:41.891646 2016] [core:notice] [pid 61269] AH00051: child pid 1163 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:06:56.907030 2016] [core:notice] [pid 61269] AH00051: child pid 1225 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:07:44.968694 2016] [core:notice] [pid 61269] AH00051: child pid 1217 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:07:55.642069 2016] [access_compat:error] [pid 1309] [client 82.223.32.193:42207] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:08:12.549616 2016] [access_compat:error] [pid 1317] [client 82.223.32.193:42208] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:09:15.100620 2016] [access_compat:error] [pid 1396] [client 82.223.32.193:42224] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:09:40.127751 2016] [core:notice] [pid 61269] AH00051: child pid 1325 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:10:53.967703 2016] [access_compat:error] [pid 1405] [client 82.223.32.193:42243] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:11:00.670263 2016] [access_compat:error] [pid 1420] [client 82.223.32.193:42249] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:11:28.292661 2016] [core:notice] [pid 61269] AH00051: child pid 1399 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:11:29.194686 2016] [access_compat:error] [pid 1413] [client 82.223.32.193:42258] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:11:53.328979 2016] [core:notice] [pid 61269] AH00051: child pid 1330 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:12:33.394938 2016] [core:notice] [pid 61269] AH00051: child pid 1412 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:12:36.218285 2016] [access_compat:error] [pid 1442] [client 82.223.32.193:42275] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:12:44.221642 2016] [access_compat:error] [pid 1483] [client 82.223.32.193:42281] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:13:00.427789 2016] [core:notice] [pid 61269] AH00051: child pid 1443 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:13:03.025285 2016] [access_compat:error] [pid 1438] [client 82.223.32.193:42282] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:13:10.926020 2016] [access_compat:error] [pid 1441] [client 82.223.32.193:42289] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:13:11.886210 2016] [access_compat:error] [pid 1499] [client 82.223.32.193:42290] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:13:38.490647 2016] [core:notice] [pid 61269] AH00051: child pid 1418 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:14:00.579542 2016] [access_compat:error] [pid 1447] [client 82.223.32.193:42309] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:14:11.776557 2016] [access_compat:error] [pid 1485] [client 82.223.32.193:42317] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:14:22.853182 2016] [access_compat:error] [pid 1523] [client 82.223.32.193:42319] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:14:38.266460 2016] [access_compat:error] [pid 1441] [client 82.223.32.193:42325] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:14:46.779334 2016] [access_compat:error] [pid 1519] [client 82.223.32.193:42332] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:14:51.620909 2016] [core:notice] [pid 61269] AH00051: child pid 1484 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:15:57.720856 2016] [core:notice] [pid 61269] AH00051: child pid 1523 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:17:02.803657 2016] [core:notice] [pid 61269] AH00051: child pid 1519 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:18:05.887070 2016] [core:notice] [pid 61269] AH00051: child pid 1533 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:19:10.985031 2016] [core:notice] [pid 61269] AH00051: child pid 1604 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:20:18.116653 2016] [core:notice] [pid 61269] AH00051: child pid 1671 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:20:53.216922 2016] [core:notice] [pid 61269] AH00051: child pid 1616 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:23:22.578812 2016] [access_compat:error] [pid 1789] [client 82.223.32.193:42478] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:23:25.846299 2016] [access_compat:error] [pid 1789] [client 82.223.32.193:42481] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:23:27.626707 2016] [access_compat:error] [pid 1789] [client 82.223.32.193:42482] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:23:32.298701 2016] [access_compat:error] [pid 1789] [client 82.223.32.193:42483] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:25:29.416816 2016] [access_compat:error] [pid 1848] [client 82.223.32.193:42502] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:27:08.791312 2016] [access_compat:error] [pid 1968] [client 82.223.32.193:42523] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:27:17.749454 2016] [access_compat:error] [pid 2015] [client 82.223.32.193:42526] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:27:23.898297 2016] [access_compat:error] [pid 2021] [client 82.223.32.193:42529] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:27:50.231802 2016] [access_compat:error] [pid 2011] [client 82.223.32.193:42546] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:27:59.012085 2016] [access_compat:error] [pid 2012] [client 82.223.32.193:42550] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:02.053444 2016] [access_compat:error] [pid 2028] [client 82.223.32.193:42553] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:08.330228 2016] [access_compat:error] [pid 2028] [client 82.223.32.193:42554] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:18.548027 2016] [access_compat:error] [pid 1963] [client 82.223.32.193:42557] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:23.160660 2016] [access_compat:error] [pid 1968] [client 82.223.32.193:42558] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:44.207728 2016] [access_compat:error] [pid 2009] [client 82.223.32.193:42559] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:28:58.692678 2016] [access_compat:error] [pid 2037] [client 82.223.32.193:42560] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:29:08.924792 2016] [access_compat:error] [pid 1971] [client 82.223.32.193:42563] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:29:46.259984 2016] [access_compat:error] [pid 2048] [client 82.223.32.193:42569] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:31:11.083634 2016] [core:notice] [pid 61269] AH00051: child pid 1972 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:33:22.252984 2016] [core:notice] [pid 61269] AH00051: child pid 2038 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:35:53.467683 2016] [core:notice] [pid 61269] AH00051: child pid 2104 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:41:56.024453 2016] [access_compat:error] [pid 2592] [client 82.223.32.193:42721] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:41:58.444575 2016] [access_compat:error] [pid 2594] [client 82.223.32.193:42724] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:42:00.204623 2016] [access_compat:error] [pid 2593] [client 82.223.32.193:42727] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:44:04.684708 2016] [access_compat:error] [pid 2644] [client 82.223.32.193:42747] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:44:29.709228 2016] [access_compat:error] [pid 2643] [client 82.223.32.193:42765] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:44:31.810214 2016] [access_compat:error] [pid 2635] [client 82.223.32.193:42766] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:45:35.322790 2016] [access_compat:error] [pid 2707] [client 82.223.32.193:42778] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:45:45.138919 2016] [access_compat:error] [pid 2702] [client 82.223.32.193:42781] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:48:12.855340 2016] [access_compat:error] [pid 2721] [client 82.223.32.193:42801] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:53:00.492748 2016] [access_compat:error] [pid 2858] [client 82.223.32.193:42871] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:53:24.182816 2016] [access_compat:error] [pid 2975] [client 82.223.32.193:42882] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:53:32.042093 2016] [access_compat:error] [pid 2967] [client 82.223.32.193:42890] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:53:38.717526 2016] [access_compat:error] [pid 2986] [client 82.223.32.193:42896] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:54:00.426027 2016] [access_compat:error] [pid 2962] [client 82.223.32.193:42900] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:54:04.301109 2016] [access_compat:error] [pid 2967] [client 82.223.32.193:42901] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:54:27.593330 2016] [access_compat:error] [pid 2977] [client 82.223.32.193:42904] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:55:13.097698 2016] [core:notice] [pid 61269] AH00051: child pid 2980 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:55:28.969058 2016] [access_compat:error] [pid 2975] [client 82.223.32.193:42912] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:55:33.519800 2016] [access_compat:error] [pid 2983] [client 82.223.32.193:42913] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:56:11.045709 2016] [access_compat:error] [pid 3029] [client 82.223.32.193:42922] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:56:18.747397 2016] [access_compat:error] [pid 2963] [client 82.223.32.193:42924] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:56:35.537413 2016] [access_compat:error] [pid 2962] [client 82.223.32.193:42933] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:57:05.275675 2016] [core:notice] [pid 61269] AH00051: child pid 2970 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 13:58:49.098690 2016] [access_compat:error] [pid 3113] [client 82.223.32.193:42972] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 13:59:06.030103 2016] [access_compat:error] [pid 3181] [client 82.223.32.193:42979] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:02:56.752316 2016] [access_compat:error] [pid 3258] [client 82.223.32.193:43020] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:03:08.739021 2016] [access_compat:error] [pid 3259] [client 82.223.32.193:43022] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:03:52.340220 2016] [access_compat:error] [pid 3245] [client 82.223.32.193:43027] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:10:26.448012 2016] [access_compat:error] [pid 3330] [client 82.223.32.193:43086] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:10:36.065331 2016] [access_compat:error] [pid 3330] [client 82.223.32.193:43088] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:11:00.614686 2016] [access_compat:error] [pid 3481] [client 82.223.32.193:43093] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:36:20.514971 2016] [access_compat:error] [pid 3907] [client 82.223.32.193:43351] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:36:35.105501 2016] [access_compat:error] [pid 4175] [client 82.223.32.193:43352] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:37:03.590193 2016] [access_compat:error] [pid 4154] [client 82.223.32.193:43357] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:37:54.259086 2016] [access_compat:error] [pid 4146] [client 82.223.32.193:43366] AH01797: client denied by server configuration: /var/www/html/app/etc/local.xml
+[Wed Sep 28 14:38:43.575712 2016] [core:notice] [pid 61269] AH00051: child pid 3766 exit signal Segmentation fault (11), possible coredump in /etc/apache2
+[Wed Sep 28 14:40:14.696696 2016] [core:notice] [pid 61269] AH00051: child pid 4154 exit signal Segmentation fault (11), possible coredump in /etc/apache2
