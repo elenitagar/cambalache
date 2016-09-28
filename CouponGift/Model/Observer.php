@@ -1,10 +1,11 @@
 <?php
 /**
- * @author		Sashas
+ * @author	Sashas
  * @category    Sashas
  * @package     Sashas_CouponGift
  * @copyright   Copyright (c) 2015 Sashas IT Support Inc. (http://www.sashas.org)
  * @license     http://opensource.org/licenses/GPL-3.0  GNU General Public License, version 3 (GPL-3.0)
+ * Version 1
  */
 
 class Sashas_CouponGift_Model_Observer {
@@ -66,7 +67,7 @@ class Sashas_CouponGift_Model_Observer {
 	}
 	
 	public function SalesRuleGiftValidator(Varien_Event_Observer $observer) {
-		
+		error_log("ICPDEV: SalesRuleGiftValidator");
 		$rule = $observer->getRule ();
 		if ($rule->getSimpleAction () != self::COUPON_GIFT_CODE)
 			return $this;
@@ -95,17 +96,19 @@ class Sashas_CouponGift_Model_Observer {
 			 */
 			return $this;
 		}
-		
+		// Busca si ya esta metido el producto en el carro.
 		foreach ( $cart_obj->getItems () as $quote_item ) {
 			if ($quote_item->getProductId () == $product_id) {
 				$was_added = true;
 				$gift_quote_item = $quote_item;
 			}
 		}
+		// Si esta metido, le pone cantidad 1
 		if ($gift_quote_item)
 			$gift_quote_item->setQty ( 1 );
 			/*
 		 * Check if original product was deleted
+		 * esto no se lo que hace.
 		 */
 		if (count ( $cart_obj->getItems () ) < 2 && $gift_quote_item instanceof Mage_Sales_Model_Quote_Item)
 			$delete_gift_product = 1;
@@ -125,7 +128,8 @@ class Sashas_CouponGift_Model_Observer {
 		 * Check if original product was deleted
 		 */
 		$quoteItem = Mage::getModel ( 'sales/quote_item' )->setProduct ( $_product );
-		
+		error_log("ICPDEV: ADD >>>>> ".$gift_product_sku);
+
 		/*
 		 * Optional
 		 */
@@ -143,6 +147,8 @@ class Sashas_CouponGift_Model_Observer {
 	}
 
 	public function RemoveCoupon(Varien_Event_Observer $observer) {
+		error_log("ICPDEV: RemoveCoupon");
+
 		if (Mage::app ()->getRequest ()->getParam ( 'remove' ) != 1)
 			return $this;
 		$quote = $observer->getQuote ();
@@ -197,13 +203,18 @@ class Sashas_CouponGift_Model_Observer {
 	}
 	
 	public function UpdateCartItem(Varien_Event_Observer $observer) {
+		error_log("ICPDEV: UpdateCartItem 0");
 		$new_info = $observer->getInfo ();
 		$cart = $observer->getCart ();
 		
 		$quoteObj = Mage::getModel ( 'checkout/cart' )->getQuote ();
 		$applied_coupon_ids = Mage::getModel ( 'sales/quote' )->load ( $quoteObj->getEntityId () )->getAppliedRuleIds ();
+		error_log("ICPDEV: UpdateCartItem 1 ".$applied_coupon_ids);
 		if (! $applied_coupon_ids)
 			return $this;
+
+		error_log("ICPDEV: UpdateCartItem 2 ".$applied_coupon_ids);
+
 			
 			/*
 		 * if few rules applied 
@@ -218,13 +229,13 @@ class Sashas_CouponGift_Model_Observer {
 				break;
 			}
 		}		
-		 
+		error_log("ICPDEV: UpdateCartItem 3 ".$rule->getSimpleAction ());
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
 	  
 		
 		$gift_product_sku = $rule->getGiftProductSku ();
-		
+
  		Mage::getSingleton ( 'checkout/session' )->addError ( Mage::helper ( 'coupongift' )->__ ( 'Quitando producto del cupon' ) );
 		
 		if (strpos($gift_product_sku, ',') !== false) return $this;
@@ -278,6 +289,8 @@ class Sashas_CouponGift_Model_Observer {
 		$quoteObj = Mage::getModel ( 'checkout/cart' )->getQuote ();
  
 		$applied_coupon_ids = Mage::getModel ( 'sales/quote' )->load ( $quoteObj->getEntityId () )->getAppliedRuleIds ();
+		error_log("ICPDEV: RemovefromCart 1");
+
 		if (! $applied_coupon_ids)
 			return $this;
 				
@@ -294,10 +307,12 @@ class Sashas_CouponGift_Model_Observer {
 				break;
 			}
 		}		
+		error_log("ICPDEV: RemovefromCart 2 ".$rule->getSimpleAction ());
 		 
 		if ($rule && $rule->getSimpleAction () != 'coupon_gift')
 			return $this;
- 
+ 		error_log("ICPDEV: RemovefromCart 3 ".$rule->getGiftProductSku ());
+
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );	
 		foreach ( $gift_products_sku_arr as $gift_product_sku ) {		
 			$this->RemoveGif($gift_product_sku, $removed_product_id,$quoteObj,$cart);
