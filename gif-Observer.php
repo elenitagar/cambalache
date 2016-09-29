@@ -102,6 +102,7 @@ class Sashas_CouponGift_Model_Observer {
 				$was_added = true;
 				$gift_quote_item = $quote_item;
 				$gift_quote_item->setQty ( 1 );
+				return $this;
 			}
 		}
 		// Check if original product was deleted
