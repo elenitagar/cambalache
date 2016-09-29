@@ -5,7 +5,7 @@
  * @package     Sashas_CouponGift
  * @copyright   Copyright (c) 2015 Sashas IT Support Inc. (http://www.sashas.org)
  * @license     http://opensource.org/licenses/GPL-3.0  GNU General Public License, version 3 (GPL-3.0)
- * @version     2
+ * @version     3
  */
 class Sashas_CouponGift_Model_Observer {
 	protected static $_singletonFlag = false;
