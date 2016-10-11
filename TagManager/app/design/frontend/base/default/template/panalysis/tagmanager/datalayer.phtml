@@ -15,13 +15,14 @@ if(isset($contId)):
         //create ajax request
       },
       onComplete: function() {
+          console.log(">>> AJAX checkAjax call");
         jQuery.ajax({
             url: "<?php echo $this->getUrl('tagmanager/ajax/checkAjax') ?>",
             dataType: 'json',
             data: "ajax_layer=1",
             success: function(e, xhr, settings) {
                 var data = (e);
-
+                console.log(">>> AJAX checkAjax success "+settings.status+" res "+data.response);
                 if(settings.status == 200 && data.response == 'datalayer')
                 {
                     dataLayer.push(data.code);
