@@ -16,7 +16,7 @@ dataLayer = [{
         'quantity': <?php echo $products_array[$i]["quantity"] ?> // Product Quantity - Type:Numeric - Required 
 	},
     <?php endfor; ?>
-     }]
+     ]
     }];
 <?php endif; ?>  
 </script>
