@@ -1,7 +1,8 @@
 <script>
-<?php    
+<?php
+    echo "PAGE>>> :".$_SERVER[SCRIPT_NAME];
     if($_SERVER[SCRIPT_NAME]=="/success.html"): 
-	 $order = Mage::getSingleton('sales/order');
+	$order = Mage::getSingleton('sales/order');
     	$order->load(Mage::getSingleton('checkout/session')->getLastOrderId());
 ?>	
 dataLayer = [{
