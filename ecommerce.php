@@ -1,8 +1,8 @@
 <script>
-<?php 
-    $order = Mage::getSingleton('sales/order');
-    $order->load(Mage::getSingleton('checkout/session')->getLastOrderId());
+<?php    
     if($_SERVER[SCRIPT_NAME]=="/success.html"): 
+	 $order = Mage::getSingleton('sales/order');
+    	$order->load(Mage::getSingleton('checkout/session')->getLastOrderId());
 ?>	
 dataLayer = [{
     'transactionId': '<?php echo $order->getIncrementId() ?>', // Transaction ID - Type:String - Required 
