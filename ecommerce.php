@@ -1,6 +1,6 @@
 <script>
 <?php 
-if($_SERVER[SCRIPT_NAME]=="/success.html"): {
+if($_SERVER[SCRIPT_NAME]=="/success.html"):
 ?>	
 
 dataLayer = [{
@@ -11,7 +11,7 @@ dataLayer = [{
     'transactionShipping': <?php echo  $transactions["shipping_cost"] ?>, // Shipping cost - Type:Numeric - Optional to use
     'transactionProducts': [
     <?php 
-    for ($i=0;$n=sizeof($products_array);$i<$n;$i++):{
+    for ($i=0;$n=sizeof($products_array);$i<$n;$i++):
     ?>
 	{
         'sku': '<?php echo $products_array[$i]["sku"] ?>', // Product SKU - Type:String - Required 
