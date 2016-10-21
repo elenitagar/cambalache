@@ -289,12 +289,10 @@ class Sashas_CouponGift_Model_Observer {
 			return $this;
 // 		error_log("ICPDEV: RemovefromCart 3 ".$rule->getGiftProductSku ());
 		$gift_products_sku_arr = explode( ',',  $rule->getGiftProductSku () );
-		/*
 		foreach ( $gift_products_sku_arr as $gift_product_sku ) {		
 			$this->_RemoveGif($gift_product_sku, $removed_product_id,$quoteObj,$cart);
 		}
 		$quoteObj->save ();
-		*/
 		return $this;
 	
 	}
